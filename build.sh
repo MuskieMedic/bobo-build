@@ -1,12 +1,12 @@
 #!/bin/bash
 #set -e
 
-buildFolder="$HOME/ArcoHefftor-build"
-outFolder="$HOME/ArcoHefftor-Out"
+buildFolder="$HOME/ArcoBobo-build"
+outFolder="$HOME/ArcoBobo-Out"
 
 echo
 echo "################################################################## "
-tput setaf 2;echo "Phase 1 : clean up and download the latest ArcoLinux Hefftor ISO from github";tput sgr0
+tput setaf 2;echo "Phase 1 : clean up and download the latest ArcoLinux Bobo ISO from github";tput sgr0
 echo "################################################################## "
 echo
 echo "Deleting the work folder if one exists"
@@ -14,7 +14,7 @@ echo "Deleting the work folder if one exists"
 echo "Deleting the build folder if one exists - takes some time"
 [ -d $buildFolder ] && sudo rm -rf $buildFolder
 echo "Git cloning files and folder to work folder"
-git clone https://github.com/bradheff/hefftor-iso work
+git clone https://github.com/PeterDauwe/bobo-iso work
 
 echo
 echo "################################################################## "
@@ -89,9 +89,9 @@ echo "Copying files and folder to build folder as root"
 sudo mkdir $buildFolder
 sudo cp -r work/* $buildFolder
 
-sudo chmod 750 ~/ArcoHefftor-build/archiso/airootfs/etc/sudoers.d
-sudo chmod 750 ~/ArcoHefftor-build/archiso/airootfs/etc/polkit-1/rules.d
-sudo chgrp polkitd ~/ArcoHefftor-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chmod 750 ~/ArcoBobo-build/archiso/airootfs/etc/sudoers.d
+sudo chmod 750 ~/ArcoBobo-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chgrp polkitd ~/ArcoBobo-build/archiso/airootfs/etc/polkit-1/rules.d
 
 echo "Deleting the work folder if one exists - clean up"
 [ -d work ] && rm -rf work

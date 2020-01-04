@@ -6,7 +6,7 @@ outFolder="$HOME/ArcoBobo-Out"
 
 echo
 echo "################################################################## "
-tput setaf 2;echo "Phase 1 : clean up and download the latest ArcoLinux Bobo ISO from github";tput sgr0
+tput setaf 2;echo "Phase 1 : clean up and download the latest ArcoLinux Hefftor ISO from github";tput sgr0
 echo "################################################################## "
 echo
 echo "Deleting the work folder if one exists"

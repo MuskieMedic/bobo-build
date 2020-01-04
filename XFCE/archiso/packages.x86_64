@@ -781,12 +781,12 @@ betterlockscreen-git
 ###########################################################################
 #                           EXTRA APPLICATIONS
 ###########################################################################
-code
-discord
-telegram-desktop
-npm
-nodejs
-filezilla
-wps-office
-encfs
-strawberry
+#code
+#discord
+#telegram-desktop
+#npm
+#nodejs
+#filezilla
+#wps-office
+#encfs
+#strawberry

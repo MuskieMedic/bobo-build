@@ -261,7 +261,7 @@ scrot
 simplescreenrecorder
 # termite
 #tint2
-variety
+#variety
 vlc
 
 ###conky
@@ -756,11 +756,11 @@ bobo-conky-git
 bobo-root-git
 bobo-gimp-git
 bobo-plank-git
-bobo-lightdm-gtk-greeter
+hefftor-lightdm-gtk-greeter
 bobo-mac-theme-git
 bobo-tela-blue-icons-git
 bobo-wallpapers-git
-bobo-variety-git
+#bobo-variety-git
 
 ###########################################################################
 #                             bobo XFCE
@@ -774,9 +774,9 @@ bobo-xfce4-panel-profiles-git
 ###########################################################################
 #                         bobo APPLICATIONS
 ###########################################################################
-insync
+#insync
 betterlockscreen-git
-zoom
+#zoom
 
 ###########################################################################
 #                           EXTRA APPLICATIONS

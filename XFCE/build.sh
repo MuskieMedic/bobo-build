@@ -115,6 +115,8 @@ echo
 
 sudo ./build.sh -v
 
+speaker-test -c6 -s1 -f75
+
 echo
 echo "################################################################## "
 tput setaf 2;echo "Phase 8 : Moving the iso to out folder";tput sgr0

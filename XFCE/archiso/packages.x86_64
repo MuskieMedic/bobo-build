@@ -761,7 +761,7 @@ bobo-mac-theme-git
 bobo-tela-blue-icons-git
 bobo-wallpapers-git
 #bobo-variety-git
-bobo-betterlockscreen-cache-git
+#bobo-betterlockscreen-cache-git
 
 ###########################################################################
 #                             bobo XFCE
@@ -776,7 +776,7 @@ bobo-xfce4-panel-profiles-git
 #                         bobo APPLICATIONS
 ###########################################################################
 #insync
-betterlockscreen-git
+#betterlockscreen-git
 #zoom
 
 ###########################################################################

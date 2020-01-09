@@ -266,8 +266,8 @@ simplescreenrecorder
 vlc
 
 ###conky
-jq
-lm_sensors
+#jq
+#lm_sensors
 
 ###cursors
 xcursor-simpleandsoft
@@ -431,7 +431,7 @@ mkinitcpio-openswap
 
 ###utilities
 aurvote-git
-conky-lua-archers
+#conky-lua-archers
 downgrade
 font-manager-git
 glxinfo
@@ -479,7 +479,7 @@ yay-bin
 arcolinux-arc-themes-nico-git
 arcolinux-bin-git
 #arcolinux-common-git
- arcolinux-conky-collection-git
+# arcolinux-conky-collection-git
 #arcolinux-conky-collection-plasma-git
 arcolinux-cron-git
 #arcolinux-docs-git
@@ -753,7 +753,7 @@ bobo-grub-theme-vimix-git
 ###########################################################################
 #                             bobo CONFIGS
 ###########################################################################
-bobo-conky-git
+#bobo-conky-git
 bobo-root-git
 bobo-gimp-git
 bobo-plank-top-git

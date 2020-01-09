@@ -777,8 +777,8 @@ bobo-xfce4-panels-prive-git
 ###########################################################################
 #                             bobo BSPWM
 ###########################################################################
-arcolinux-bspwm-git
-arcolinux-polybar-git
+bobo-bspwm-config-git
+#arcolinux-polybar-git
 
 
 

@@ -746,7 +746,7 @@ gtk-engine-murrine
 ###########################################################################
 #                           bobo CALAMARES
 ###########################################################################
-bobo-calamares-xfce-config-git
+bobo-calamares-config-git
 bobo-system-installation-git
 bobo-grub-theme-vimix-git
 
@@ -756,7 +756,7 @@ bobo-grub-theme-vimix-git
 bobo-conky-git
 bobo-root-git
 bobo-gimp-git
-bobo-plank-top-git
+bobo-plank-git
 bobo-lightdm-gtk-greeter-git
 bobo-mac-theme-git
 bobo-tela-blue-icons-git

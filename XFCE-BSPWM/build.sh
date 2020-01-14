@@ -1,8 +1,7 @@
 #!/bin/bash
 #set -e
-
-buildFolder="$HOME/ArcoBoboXFCEBSP-build"
-outFolder="$HOME/ArcoBoboXFCEBSP-Out"
+buildFolder="$HOME/boboxfce-build"
+outFolder="$HOME/boboxfce-Out"
 
 echo
 echo "################################################################## "
@@ -89,9 +88,9 @@ echo "Copying files and folder to build folder as root"
 sudo mkdir $buildFolder
 sudo cp -r work/* $buildFolder
 
-sudo chmod 750 ~/ArcoBobo-build/archiso/airootfs/etc/sudoers.d
-sudo chmod 750 ~/ArcoBobo-build/archiso/airootfs/etc/polkit-1/rules.d
-sudo chgrp polkitd ~/ArcoBobo-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chmod 750 ~/boboxfce-build/archiso/airootfs/etc/sudoers.d
+sudo chmod 750 ~/boboxfce-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chgrp polkitd ~/boboxfce-build/archiso/airootfs/etc/polkit-1/rules.d
 
 echo "Deleting the work folder if one exists - clean up"
 [ -d work ] && rm -rf work
@@ -109,13 +108,11 @@ yes | sudo pacman -Scc
 
 echo
 echo "################################################################## "
-tput setaf 2;echo "Phase 7 : Build ISO";tput sgr0
+tput setaf 2;echo "Phase 7 : Building the iso";tput sgr0
 echo "################################################################## "
 echo
 
 sudo ./build.sh -v
-
-
 
 echo
 echo "################################################################## "
@@ -132,5 +129,5 @@ tput setaf 2;echo "Phase 9 : Making sure we start with a clean slate next time";
 echo "################################################################## "
 echo
 speaker-test -c6 -s1 -f75
-echo "Deleting the build folder if one exists - takes some time"
-[ -d $buildFolder ] && sudo rm -rf $buildFolder
+#echo "Deleting the build folder if one exists - takes some time"
+#[ -d $buildFolder ] && sudo rm -rf $buildFolder

@@ -1,7 +1,7 @@
 #!/bin/bash
 #set -e
-buildFolder="$HOME/boboxfce-build"
-outFolder="$HOME/boboxfce-Out"
+buildFolder="$HOME/boboxfcebspwm-build"
+outFolder="$HOME/boboxfcebspwm-Out"
 
 echo
 echo "################################################################## "
@@ -88,9 +88,9 @@ echo "Copying files and folder to build folder as root"
 sudo mkdir $buildFolder
 sudo cp -r work/* $buildFolder
 
-sudo chmod 750 ~/boboxfce-build/archiso/airootfs/etc/sudoers.d
-sudo chmod 750 ~/boboxfce-build/archiso/airootfs/etc/polkit-1/rules.d
-sudo chgrp polkitd ~/boboxfce-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chmod 750 ~/boboxfcebspwm-build/archiso/airootfs/etc/sudoers.d
+sudo chmod 750 ~/boboxfcebspwm-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chgrp polkitd ~/boboxfcebspwm-build/archiso/airootfs/etc/polkit-1/rules.d
 
 echo "Deleting the work folder if one exists - clean up"
 [ -d work ] && rm -rf work

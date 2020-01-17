@@ -234,7 +234,7 @@ poppler-qt5
 
 ###applications
 atom
-chromium
+# chromium
 picom
 #darktable
 #deadbeef
@@ -244,7 +244,7 @@ feh
 firefox
 #flashplugin
 galculator
-geany
+# geany
 gimp
 gmrun
 gsimplecal
@@ -260,7 +260,7 @@ numlockx
 qbittorrent
 scrot
 simplescreenrecorder
-termite
+# termite
 #tint2
 #variety
 vlc
@@ -326,11 +326,11 @@ gksu
 glances
 gnome-disk-utility
 gnome-keyring
-gnome-screenshot
+# gnome-screenshot
 #gnome-software
 #gnome-software-packagekit-plugin
 gparted
-gpick
+# gpick
 gtop
 hardinfo
 hddtemp
@@ -348,7 +348,6 @@ laptop-detect
 lsb-release
 mlocate
 nomacs
-oh-my-zsh-git
 p7zip
 plank
 playerctl
@@ -388,9 +387,9 @@ xdotool
 xdg-desktop-portal-gtk
 youtube-dl
 zenity
-zsh
-zsh-completions
-zsh-syntax-highlighting
+# zsh
+# zsh-completions
+# zsh-syntax-highlighting
 
 ###########################################################################
 #                           ARCOLINUX_REPO_ISO
@@ -412,13 +411,13 @@ ttf-font-awesome
 ttf-ms-fonts
 
 ###icons
-faba-icon-theme
-halo-icons-git
-moka-icon-theme
-numix-circle-arc-icons-git
-numix-icon-theme-git
-numix-circle-icon-theme-git
-paper-icon-theme
+# faba-icon-theme
+# halo-icons-git
+# moka-icon-theme
+# numix-circle-arc-icons-git
+# numix-icon-theme-git
+# numix-circle-icon-theme-git
+# paper-icon-theme
 sardi-icons
 surfn-icons-git
 #surfn-arc-breeze-icons-git
@@ -430,8 +429,7 @@ surfn-icons-git
 ###tools
 mkinitcpio-openswap
 
-###utilities-repo
-archiso
+###utilities
 aurvote-git
 conky-lua-archers
 downgrade
@@ -487,7 +485,7 @@ arcolinux-cron-git
 #arcolinux-docs-git
 #arcolinux-faces-git
 arcolinux-fonts-git
-arcolinux-geany-git
+# arcolinux-geany-git
 # arcolinux-grub-theme-vimix-git
 arcolinux-hblock-git
 arcolinux-keyring
@@ -515,16 +513,16 @@ arcolinux-pipemenus-git
 #arcolinux-plank-git
 #arcolinux-plank-themes-git
 arcolinux-polybar-git
-arcolinux-qt5-git
+# arcolinux-qt5-git
 # arcolinux-qt5-plasma-git
 # arcolinux-rofi-git
 # arcolinux-rofi-themes-git
 # arcolinux-root-git
-arcolinux-slim
-arcolinux-slimlock-themes-git
+# arcolinux-slim
+# arcolinux-slimlock-themes-git
 arcolinux-system-config-git
 #arcolinux-systemd-services-git
-arcolinux-termite-themes-git
+# arcolinux-termite-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
 # arcolinux-variety-git
@@ -532,7 +530,6 @@ arcolinux-termite-themes-git
 #arcolinux-wallpapers-lxqt-dual-git
 #arcolinux-xfce4-panel-profiles-git
 #arcolinux-xmobar-git
-arcolinux-zsh-git
 
 ###########################################################################
 #                           ARCOLINUX DESKTOP FOLDER
@@ -749,7 +746,7 @@ gtk-engine-murrine
 ###########################################################################
 #                           bobo CALAMARES
 ###########################################################################
-bobo-calamares-config-bspwm-git
+bobo-calamares-config-git
 bobo-system-installation-git
 bobo-grub-theme-vimix-git
 

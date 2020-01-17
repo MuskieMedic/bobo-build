@@ -1,7 +1,7 @@
 #!/bin/bash
 #set -e
-buildFolder="$HOME/boboxfce-build"
-outFolder="$HOME/boboxfce-Out"
+buildFolder="$HOME/Arcoboboxfce-build"
+outFolder="$HOME/Arcoboboxfce-Out"
 
 echo
 echo "################################################################## "
@@ -88,9 +88,9 @@ echo "Copying files and folder to build folder as root"
 sudo mkdir $buildFolder
 sudo cp -r work/* $buildFolder
 
-sudo chmod 750 ~/boboxfce-build/archiso/airootfs/etc/sudoers.d
-sudo chmod 750 ~/boboxfce-build/archiso/airootfs/etc/polkit-1/rules.d
-sudo chgrp polkitd ~/boboxfce-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chmod 750 ~/Arcoboboxfce-build/archiso/airootfs/etc/sudoers.d
+sudo chmod 750 ~/Arcoboboxfce-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chgrp polkitd ~/Arcoboboxfce-build/archiso/airootfs/etc/polkit-1/rules.d
 
 echo "Deleting the work folder if one exists - clean up"
 [ -d work ] && rm -rf work
@@ -128,6 +128,6 @@ echo "################################################################## "
 tput setaf 2;echo "Phase 9 : Making sure we start with a clean slate next time";tput sgr0
 echo "################################################################## "
 echo
-speaker-test -c6 -s1 -f75
+#speaker-test -c6 -s1 -f75
 #echo "Deleting the build folder if one exists - takes some time"
 #[ -d $buildFolder ] && sudo rm -rf $buildFolder

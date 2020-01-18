@@ -141,6 +141,7 @@ base-devel
 #open-vm-tools  this made it lag
 virtualbox-guest-modules-arch
 virtualbox-guest-utils
+virtualbox
 
 ###packages for dual boot
 os-prober
@@ -266,8 +267,8 @@ termite
 vlc
 
 ###conky
-jq
-lm_sensors
+#jq
+#lm_sensors
 
 ###cursors
 xcursor-simpleandsoft
@@ -350,7 +351,7 @@ mlocate
 nomacs
 oh-my-zsh-git
 p7zip
-plank
+#plank
 playerctl
 polkit
 polkit-gnome
@@ -433,7 +434,7 @@ mkinitcpio-openswap
 ###utilities-repo
 archiso
 aurvote-git
-conky-lua-archers
+#conky-lua-archers
 downgrade
 font-manager-git
 glxinfo
@@ -481,7 +482,7 @@ yay-bin
 arcolinux-arc-themes-nico-git
 arcolinux-bin-git
 #arcolinux-common-git
-arcolinux-conky-collection-git
+#arcolinux-conky-collection-git
 #arcolinux-conky-collection-plasma-git
 arcolinux-cron-git
 #arcolinux-docs-git
@@ -513,7 +514,7 @@ arcolinux-neofetch-git
 #arcolinux-openbox-themes-git
 arcolinux-pipemenus-git
 # arcolinux-plank-git
-arcolinux-plank-themes-git
+#arcolinux-plank-themes-git
 #arcolinux-polybar-git
 #arcolinux-qt5-git
 #arcolinux-qt5-plasma-git
@@ -756,10 +757,10 @@ bobo-grub-theme-vimix-git
 ###########################################################################
 #                             BOBO CONFIGS
 ###########################################################################
-bobo-conky-git
+#bobo-conky-git
 bobo-root-git
 bobo-gimp-git
-bobo-plank-git
+#bobo-plank-git
 bobo-lightdm-gtk-greeter-git
 bobo-mac-theme-git
 bobo-tela-blue-icons-git
@@ -799,4 +800,6 @@ bobo-xfce4-panels-prive-git
 #gnome-calculator
 #gcolor3
 gimp-plugin-gmic
+gnome-software
+gnome-software-packagekit-plugin
 

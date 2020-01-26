@@ -787,19 +787,19 @@ bobo-xfce4-panels-prive-git
 ###########################################################################
 #                           EXTRA APPLICATIONS
 ###########################################################################
-#code
+code
 #discord
 #telegram-desktop
-#npm
-#nodejs
+npm
+nodejs
 #filezilla
 #wps-office
 #encfs
-#strawberry
+strawberry
 #krita
 #gnome-calculator
 #gcolor3
 gimp-plugin-gmic
 gnome-software
 gnome-software-packagekit-plugin
-
+synapse

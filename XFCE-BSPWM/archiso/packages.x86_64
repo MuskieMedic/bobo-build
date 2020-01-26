@@ -404,7 +404,7 @@ vivaldi
 breeze-cursors-lh
 breeze-obsidian-cursor-theme
 oxy-neon
-xcursor-breeze
+#xcursor-breeze
 xcursor-vanilla-dmz-aa
 
 ###fonts
@@ -515,7 +515,7 @@ arcolinux-pipemenus-git
 #arcolinux-plank-git
 #arcolinux-plank-themes-git
 arcolinux-polybar-git
-arcolinux-qt5-git
+#arcolinux-qt5-git
 # arcolinux-qt5-plasma-git
 # arcolinux-rofi-git
 # arcolinux-rofi-themes-git
@@ -749,7 +749,7 @@ gtk-engine-murrine
 ###########################################################################
 #                           bobo CALAMARES
 ###########################################################################
-bobo-calamares-config-bspwm-git
+bobo-calamares-bspwm-git
 bobo-system-installation-git
 bobo-grub-theme-vimix-git
 

@@ -619,6 +619,7 @@ arco-calamares
 #arco-calamares-dev
 #arco-calamares-comp
 # arcolinux-system-installation-git
+arcolinux-welcome-app-git
 
 ###########################################################################
 #                                CALAMARES DEPENDENCIES
@@ -753,6 +754,7 @@ bobo-calamares-config-bspwmfull-git
 bobo-system-installation-git
 bobo-grub-theme-vimix-git
 
+
 ###########################################################################
 #                             bobo CONFIGS
 ###########################################################################
@@ -788,7 +790,7 @@ bobo-bspwm-config-git
 #                           EXTRA APPLICATIONS
 ###########################################################################
 code
-#discord
+discord
 #telegram-desktop
 npm
 nodejs
@@ -800,7 +802,9 @@ strawberry
 #gnome-calculator
 #gcolor3
 gimp-plugin-gmic
-
+synapse
+gnome-software
+gnome-software-packagekit-plugin
 ###########################################################################
 #                                ISO SPECIFIC
 ###########################################################################

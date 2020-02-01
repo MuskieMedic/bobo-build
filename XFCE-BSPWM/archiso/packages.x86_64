@@ -348,7 +348,7 @@ laptop-detect
 lsb-release
 mlocate
 nomacs
-oh-my-zsh-git
+##oh-my-zsh-git
 p7zip
 plank
 playerctl
@@ -388,9 +388,9 @@ xdotool
 xdg-desktop-portal-gtk
 youtube-dl
 zenity
-zsh
-zsh-completions
-zsh-syntax-highlighting
+##zsh
+##zsh-completions
+##zsh-syntax-highlighting
 
 ###########################################################################
 #                           ARCOLINUX_REPO_ISO
@@ -431,7 +431,7 @@ surfn-icons-git
 mkinitcpio-openswap
 
 ###utilities-repo
-archiso
+##archiso
 aurvote-git
 conky-lua-archers
 downgrade
@@ -532,7 +532,7 @@ arcolinux-termite-themes-git
 #arcolinux-wallpapers-lxqt-dual-git
 #arcolinux-xfce4-panel-profiles-git
 #arcolinux-xmobar-git
-arcolinux-zsh-git
+##arcolinux-zsh-git
 
 ###########################################################################
 #                           ARCOLINUX DESKTOP FOLDER
@@ -749,7 +749,7 @@ gtk-engine-murrine
 ###########################################################################
 #                           bobo CALAMARES
 ###########################################################################
-bobo-calamares-bspwm-git
+bobo-calamares-bspwmfull-git
 bobo-system-installation-git
 bobo-grub-theme-vimix-git
 
@@ -787,15 +787,15 @@ bobo-bspwm-config-git
 ###########################################################################
 #                           EXTRA APPLICATIONS
 ###########################################################################
-#code
+code
 #discord
 #telegram-desktop
-#npm
-#nodejs
+npm
+nodejs
 #filezilla
 #wps-office
 #encfs
-#strawberry
+strawberry
 #krita
 #gnome-calculator
 #gcolor3

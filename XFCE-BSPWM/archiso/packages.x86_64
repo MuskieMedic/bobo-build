@@ -283,7 +283,7 @@ ttf-ubuntu-font-family
 ###icons
 #arc-icon-theme
 gnome-icon-theme
-#papirus-icon-theme
+papirus-icon-theme
 
 ###themes
 #adapta-gtk-theme
@@ -396,12 +396,12 @@ ttf-ms-fonts
 
 ###icons
 #faba-icon-theme
-#halo-icons-git
+halo-icons-git
 #moka-icon-theme
 numix-circle-arc-icons-git
 numix-icon-theme-git
 numix-circle-icon-theme-git
-#paper-icon-theme
+paper-icon-theme
 sardi-icons
 surfn-icons-git
 #surfn-arc-breeze-icons-git
@@ -506,7 +506,7 @@ arcolinux-system-config-git
 arcolinux-termite-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
-arcolinux-variety-git
+#arcolinux-variety-git
 # arcolinux-wallpapers-git
 #arcolinux-wallpapers-lxqt-dual-git
 #arcolinux-xfce4-panel-profiles-git
@@ -776,7 +776,7 @@ xfce4-panel-profiles
 ###########################################################################
 #                           bobo CALAMARES
 ###########################################################################
-bobo-calamares-config-bspwmfull-git
+bobo-calamares-bspwm-git
 bobo-system-installation-git
 bobo-grub-theme-vimix-git
 

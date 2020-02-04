@@ -598,7 +598,7 @@ arco-calamares
 #arco-calamares-comp
 #arco-calamares-dev
 # arcolinux-system-installation-git
-#arcolinux-welcome-app-git
+arcolinux-welcome-app-git
 
 ###########################################################################
 #                                CALAMARES DEPENDENCIES

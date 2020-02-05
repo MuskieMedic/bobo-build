@@ -141,7 +141,6 @@ base-devel
 #open-vm-tools  this made it lag
 virtualbox-guest-modules-arch
 virtualbox-guest-utils
-virtualbox
 
 ###packages for dual boot
 os-prober
@@ -235,7 +234,7 @@ poppler-qt5
 
 ###applications
 atom
-chromium
+# chromium
 #picom
 #darktable
 #deadbeef
@@ -244,8 +243,8 @@ evolution
 feh
 firefox
 #flashplugin
-galculator
-geany
+# galculator
+# geany
 gimp
 gmrun
 #gsimplecal
@@ -263,12 +262,12 @@ scrot
 simplescreenrecorder
 termite
 #tint2
-#variety
+variety
 vlc
 
 ###conky
-#jq
-#lm_sensors
+jq
+lm_sensors
 
 ###cursors
 xcursor-simpleandsoft
@@ -327,11 +326,11 @@ gksu
 glances
 gnome-disk-utility
 gnome-keyring
-gnome-screenshot
+# gnome-screenshot
 #gnome-software
 #gnome-software-packagekit-plugin
 gparted
-gpick
+# gpick
 gtop
 hardinfo
 hddtemp
@@ -349,9 +348,8 @@ laptop-detect
 lsb-release
 mlocate
 nomacs
-##oh-my-zsh-git
 p7zip
-#plank
+plank
 playerctl
 polkit
 polkit-gnome
@@ -365,7 +363,7 @@ qt5-webkit
 powertop
 reflector
 #redshift
-#rofi
+rofi
 rxvt-unicode
 simple-scan
 #shotwell
@@ -389,16 +387,16 @@ xdotool
 xdg-desktop-portal-gtk
 youtube-dl
 zenity
-##zsh
-##zsh-completions
-##zsh-syntax-highlighting
+# zsh
+# zsh-completions
+# zsh-syntax-highlighting
 
 ###########################################################################
 #                           ARCOLINUX_REPO_ISO
 ###########################################################################
 
 ###applications
-vivaldi
+# vivaldi
 #vivaldi-codecs-ffmpeg-extra-bin
 
 ###cursors
@@ -413,13 +411,13 @@ ttf-font-awesome
 ttf-ms-fonts
 
 ###icons
-faba-icon-theme
-halo-icons-git
-moka-icon-theme
-numix-circle-arc-icons-git
-numix-icon-theme-git
-numix-circle-icon-theme-git
-paper-icon-theme
+# faba-icon-theme
+# halo-icons-git
+# moka-icon-theme
+# numix-circle-arc-icons-git
+# numix-icon-theme-git
+# numix-circle-icon-theme-git
+# paper-icon-theme
 sardi-icons
 surfn-icons-git
 #surfn-arc-breeze-icons-git
@@ -431,10 +429,9 @@ surfn-icons-git
 ###tools
 mkinitcpio-openswap
 
-###utilities-repo
-##archiso
+###utilities
 aurvote-git
-#conky-lua-archers
+conky-lua-archers
 downgrade
 font-manager-git
 glxinfo
@@ -482,13 +479,13 @@ yay-bin
 arcolinux-arc-themes-nico-git
 arcolinux-bin-git
 #arcolinux-common-git
-#arcolinux-conky-collection-git
+arcolinux-conky-collection-git
 #arcolinux-conky-collection-plasma-git
 arcolinux-cron-git
 #arcolinux-docs-git
 arcolinux-faces-git
 arcolinux-fonts-git
-arcolinux-geany-git
+# arcolinux-geany-git
 # arcolinux-grub-theme-vimix-git
 arcolinux-hblock-git
 arcolinux-keyring
@@ -514,15 +511,15 @@ arcolinux-neofetch-git
 #arcolinux-openbox-themes-git
 arcolinux-pipemenus-git
 # arcolinux-plank-git
-#arcolinux-plank-themes-git
+arcolinux-plank-themes-git
 #arcolinux-polybar-git
-#arcolinux-qt5-git
+# arcolinux-qt5-git
 #arcolinux-qt5-plasma-git
-#arcolinux-rofi-git
-#arcolinux-rofi-themes-git
+# arcolinux-rofi-git
+arcolinux-rofi-themes-git
 # arcolinux-root-git
-arcolinux-slim
-arcolinux-slimlock-themes-git
+# arcolinux-slim
+# arcolinux-slimlock-themes-git
 arcolinux-system-config-git
 #arcolinux-systemd-services-git
 arcolinux-termite-themes-git
@@ -533,7 +530,6 @@ arcolinux-termite-themes-git
 #arcolinux-wallpapers-lxqt-dual-git
 # arcolinux-xfce4-panel-profiles-git
 #arcolinux-xmobar-git
-##arcolinux-zsh-git
 
 ###########################################################################
 #                           ARCOLINUX DESKTOP FOLDER
@@ -757,16 +753,19 @@ bobo-grub-theme-vimix-git
 ###########################################################################
 #                             BOBO CONFIGS
 ###########################################################################
-#bobo-conky-git
+hefftor-conky-git
 bobo-root-git
-bobo-gimp-git
-#bobo-plank-git
-bobo-lightdm-gtk-greeter-git
-bobo-mac-theme-git
+hefftor-gimp-git
+bobo-plank-git
+hefftor-xfce-rofi-git
+hefftor-lightdm-gtk-greeter
+# bobo-mac-theme-git
+hefftor-juno-theme-git
 bobo-tela-blue-icons-git
+hefftor-bibata-cursor-git
 bobo-wallpapers-git
-#bobo-variety-git
-#bobo-betterlockscreen-cache-git
+hefftor-variety-git
+hefftor-betterlockscreen-cache-git
 
 ###########################################################################
 #                             BOBO XFCE
@@ -774,32 +773,31 @@ bobo-wallpapers-git
 bobo-xfce-git
 bobo-xfce-config-git
 bobo-xfce-dconf-git
-#bobo-xfce-local-git
-bobo-xfce4-panels-prive-git
+bobo-xfce-local-git
+hefftor-xfce4-panel-profiles-git
 
 ###########################################################################
 #                         BOBO APPLICATIONS
 ###########################################################################
-#insync
-#betterlockscreen-git
-#zoom
+betterlockscreen-git
+hefftor-skelapp-git
+thermald
 
 ###########################################################################
 #                           EXTRA APPLICATIONS
 ###########################################################################
+brave
 code
 #discord
 #telegram-desktop
 npm
 nodejs
-#filezilla
-#wps-office
-#encfs
+encfs
 strawberry
-#krita
-#gnome-calculator
-#gcolor3
+krita
 gimp-plugin-gmic
-gnome-software
-gnome-software-packagekit-plugin
+gnome-calculator
+gcolor3
+tlp
+tlp-rdw
 synapse

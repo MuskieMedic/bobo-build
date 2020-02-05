@@ -531,6 +531,8 @@ arcolinux-tint2-themes-git
 # arcolinux-xfce4-panel-profiles-git
 #arcolinux-xmobar-git
 arcolinux-tweak-tool-git
+hefftor-polybar-switcher-git
+hefftor-skelapp-git
 
 ###########################################################################
 #                           ARCOLINUX DESKTOP FOLDER

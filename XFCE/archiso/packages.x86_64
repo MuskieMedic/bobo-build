@@ -756,7 +756,7 @@ bobo-grub-theme-vimix-git
 hefftor-conky-git
 bobo-root-git
 hefftor-gimp-git
-bobo-plank-git
+hefftor-plank-git
 hefftor-xfce-rofi-git
 hefftor-lightdm-gtk-greeter
 # bobo-mac-theme-git
@@ -770,10 +770,10 @@ hefftor-betterlockscreen-cache-git
 ###########################################################################
 #                             BOBO XFCE
 ###########################################################################
-bobo-xfce-git
-bobo-xfce-config-git
-bobo-xfce-dconf-git
-bobo-xfce-local-git
+hefftor-xfce-git
+hefftor-xfce-config-git
+hefftor-xfce-dconf-git
+hefftor-xfce-local-git
 hefftor-xfce4-panel-profiles-git
 
 ###########################################################################

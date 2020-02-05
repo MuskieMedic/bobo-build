@@ -108,7 +108,7 @@ yes | sudo pacman -Scc
 
 echo
 echo "################################################################## "
-tput setaf 2;echo "Phase 7 : Building the iso";tput sgr0
+tput setaf 2;echo "Phase 7 : Build ISO";tput sgr0
 echo "################################################################## "
 echo
 
@@ -128,6 +128,5 @@ echo "################################################################## "
 tput setaf 2;echo "Phase 9 : Making sure we start with a clean slate next time";tput sgr0
 echo "################################################################## "
 echo
-#speaker-test -c6 -s1 -f75
-#echo "Deleting the build folder if one exists - takes some time"
-#[ -d $buildFolder ] && sudo rm -rf $buildFolder
+echo "Deleting the build folder if one exists - takes some time"
+[ -d $buildFolder ] && sudo rm -rf $buildFolder

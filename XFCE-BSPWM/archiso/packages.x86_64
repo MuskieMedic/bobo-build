@@ -752,7 +752,7 @@ xfce4-panel-profiles
 bobo-calamares-bspwm-git
 bobo-system-installation-git
 bobo-grub-theme-vimix-git
-#arcolinux-welcome-app-git
+arcolinux-welcome-app-git
 
 ###########################################################################
 #                             BOBO CONFIGS

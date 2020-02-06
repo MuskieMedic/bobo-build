@@ -457,7 +457,7 @@ trizen
 urxvt-perls
 urxvt-resize-font-git
 wttr
-yad
+#yad
 #yakuake
 yay-bin
 
@@ -509,7 +509,7 @@ arcolinux-oblogout-themes-git
 #arcolinux-obmenu-generator-minimal-git
 #arcolinux-obmenu-generator-xtended-git
 #arcolinux-openbox-themes-git
-arcolinux-pipemenus-git
+#arcolinux-pipemenus-git
 #arcolinux-plank-git
 arcolinux-plank-themes-git
 arcolinux-polybar-git

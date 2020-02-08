@@ -532,7 +532,7 @@ arcolinux-tint2-themes-git
 #arcolinux-xmobar-git
 arcolinux-tweak-tool-git
 hefftor-polybar-switcher-git
-hefftor-skelapp-git
+#hefftor-skelapp-git
 
 ###########################################################################
 #                           ARCOLINUX DESKTOP FOLDER
@@ -785,7 +785,7 @@ bobo-bspwm-config-git
 ###########################################################################
 #betterlockscreen-git
 #hefftor-skelapp-git
-thermald
+#thermald
 
 ###########################################################################
 #                           EXTRA APPLICATIONS

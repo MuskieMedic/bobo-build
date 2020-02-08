@@ -114,7 +114,6 @@ xf86-video-openchrome
 xf86-video-vesa
 xf86-video-vmware
 #xf86-video-voodoo
-#xf86-video-sisusb
 mesa
 
 ###hardware video support
@@ -163,6 +162,7 @@ libdvdcss
 pulseaudio
 pulseaudio-alsa
 pavucontrol
+volumeicon
 
 ###bluetooth
 blueberry
@@ -196,6 +196,10 @@ gvfs-mtp
 gvfs-nfs
 gvfs-smb
 mtpfs
+thunar
+thunar-archive-plugin
+thunar-media-tags-plugin
+thunar-volman
 udiskie
 udisks2
 xdg-user-dirs
@@ -229,7 +233,8 @@ poppler-qt5
 
 ###applications
 atom
-#chromium
+chromium
+picom
 #darktable
 #deadbeef
 dmenu
@@ -284,6 +289,17 @@ ttf-ubuntu-font-family
 gnome-icon-theme
 #papirus-icon-theme
 
+###lightdm
+accountsservice
+lightdm
+
+###lx-applications
+lxappearance
+#lxappearance-gtk3
+lxappearance-obconf
+#lxappearance-obconf-gtk3
+lxrandr
+
 ###themes
 #adapta-gtk-theme
 arc-gtk-theme
@@ -331,7 +347,6 @@ laptop-detect
 lsb-release
 mlocate
 nomacs
-oh-my-zsh-git
 p7zip
 plank
 playerctl
@@ -365,14 +380,12 @@ w3m
 webkit2gtk
 wmctrl
 xapps
+xcape
 xdo
 xdotool
 xdg-desktop-portal-gtk
 youtube-dl
 zenity
-zsh
-zsh-completions
-zsh-syntax-highlighting
 
 ###########################################################################
 #                           ARCOLINUX_REPO_ISO
@@ -422,7 +435,9 @@ glxinfo
 grub-customizer
 hardcode-fixer-git
 inxi
+menulibre
 mintstick-git
+mugshot
 neofetch
 numix-gtk-theme-git
 pamac-aur
@@ -489,7 +504,7 @@ arcolinux-neofetch-git
 #arcolinux-obmenu-generator-minimal-git
 #arcolinux-obmenu-generator-xtended-git
 #arcolinux-openbox-themes-git
-arcolinux-pipemenus-git
+#arcolinux-pipemenus-git
 # arcolinux-plank-git
 arcolinux-plank-themes-git
 #arcolinux-polybar-git
@@ -505,9 +520,8 @@ arcolinux-system-config-git
 arcolinux-termite-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
-#arcolinux-tweak-tool-git
 #arcolinux-variety-git
-arcolinux-wallpapers-git
+#arcolinux-wallpapers-git
 #arcolinux-wallpapers-lxqt-dual-git
 # arcolinux-xfce4-panel-profiles-git
 #arcolinux-xmobar-git
@@ -587,7 +601,7 @@ arcolinux-tweak-tool-git
 #arcolinux-openbox-dconf-git
 #arcolinux-plasma-dconf-git
 #arcolinux-qtile-dconf-git
-# arcolinux-xfce-dconf-git
+#arcolinux-xfce-dconf-git
 #arcolinux-xmonad-dconf-git
 #arcolinux-xtended-dconf-git
 
@@ -596,8 +610,8 @@ arcolinux-tweak-tool-git
 ###########################################################################
 
 arco-calamares
-#arco-calamares-dev
 #arco-calamares-comp
+#arco-calamares-dev
 # arcolinux-system-installation-git
 
 ###########################################################################
@@ -651,33 +665,7 @@ qt5-xmlpatterns
 #arcod-calamares-config-dev-git
 
 ###########################################################################
-#                                DISPLAY MANAGER
-###########################################################################
-
-###lightdm
-accountsservice
-lightdm
-
-###########################################################################
-#                         PICOM OR COMPTON
-###########################################################################
-
-#picom
-
-###########################################################################
-#                         GENERAL DESKTOP RELATED
-###########################################################################
-
-mugshot
-menulibre
-#volumeicon
-
-###########################################################################
-#                         ARCOLINUX ISO SPECIFIC
-###########################################################################
-
-###########################################################################
-#                                 i3
+#                                DESKTOP SPECIFIC
 ###########################################################################
 
 ###i3wm
@@ -697,16 +685,7 @@ menulibre
 #obconf
 #openbox
 #perl-linux-desktopfiles
-#tint2
-#xcape
-#openbox-themes-pambudi-git
 
-###lx-applications
-#lxappearance
-#lxappearance-gtk3
-#lxappearance-obconf
-#lxappearance-obconf-gtk3
-#lxrandr
 
 ###########################################################################
 #                                XFCE
@@ -717,8 +696,6 @@ menulibre
 exo
 #garcon
 thunar
-thunar-volman
-tumbler
 xfce4-appfinder
 xfce4-panel
 xfce4-power-manager
@@ -736,8 +713,6 @@ xfwm4-themes
 #orage
 #parole
 ristretto
-thunar-archive-plugin
-thunar-media-tags-plugin
 xfburn
 #xfce4-artwork
 xfce4-battery-plugin
@@ -818,11 +793,6 @@ thermald
 ###########################################################################
 brave
 code
-#discord
-#telegram-desktop
-npm
-nodejs
-encfs
 strawberry
 krita
 gimp-plugin-gmic

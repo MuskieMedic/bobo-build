@@ -526,7 +526,6 @@ arcolinux-termite-themes-git
 # arcolinux-xfce4-panel-profiles-git
 #arcolinux-xmobar-git
 arcolinux-tweak-tool-git
-#hefftor-skelapp-git
 
 ###########################################################################
 #                           ARCOLINUX DESKTOP FOLDER
@@ -763,9 +762,7 @@ bobo-root-git
 bobo-gimp-git
 bobo-plank-git
 bobo-lightdm-gtk-greeter-git
-#bobo-mac-theme-git
 bobo-juno-themes-git
-#bobo-tela-blue-icons-git
 bobo-candy-icons-git
 bobo-wallpapers-git
 
@@ -779,7 +776,7 @@ bobo-xfce-dconf-git
 bobo-xfce4-panel-profiles-git
 
 ###########################################################################
-#                         BOBO APPLICATIONS
+#                         HEFFTOR APPLICATIONS
 ###########################################################################
 hefftor-skelapp-git
 

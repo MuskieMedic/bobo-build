@@ -759,19 +759,15 @@ arcolinux-welcome-app-git
 ###########################################################################
 #                             BOBO CONFIGS
 ###########################################################################
-#hefftor-conky-git
 bobo-root-git
 bobo-gimp-git
 bobo-plank-git
 bobo-lightdm-gtk-greeter-git
-bobo-mac-theme-git
+#bobo-mac-theme-git
 bobo-juno-themes-git
 #bobo-tela-blue-icons-git
 bobo-candy-icons
-#hefftor-bibata-cursor-git
 bobo-wallpapers-git
-#hefftor-variety-git
-#bobo-betterlockscreen-cache-git
 
 ###########################################################################
 #                             BOBO XFCE
@@ -785,16 +781,16 @@ bobo-xfce4-panel-profiles-git
 ###########################################################################
 #                         BOBO APPLICATIONS
 ###########################################################################
-#betterlockscreen-git
-#hefftor-skelapp-git
+hefftor-skelapp-git
 
 ###########################################################################
 #                           EXTRA APPLICATIONS
 ###########################################################################
 brave
+discord
 code
 strawberry
-krita
+#krita
 gimp-plugin-gmic
 gnome-calculator
 gcolor3

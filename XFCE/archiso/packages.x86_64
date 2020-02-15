@@ -760,8 +760,8 @@ arcolinux-welcome-app-git
 ###########################################################################
 bobo-root-git
 bobo-gimp-git
-bobo-plank-git
 bobo-lightdm-gtk-greeter-git
+bobo-plank-git
 bobo-juno-themes-git
 bobo-candy-icons-git
 bobo-wallpapers-git

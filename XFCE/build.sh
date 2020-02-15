@@ -1,7 +1,7 @@
 #!/bin/bash
 #set -e
-buildFolder="$HOME/ArcoBoboFeb-build"
-outFolder="$HOME/ArcoBoboFeb-Out"
+buildFolder="$HOME/ArcoBoboXfce-build"
+outFolder="$HOME/ArcoBoboXfce-Out"
 
 echo
 echo "################################################################## "
@@ -88,9 +88,9 @@ echo "Copying files and folder to build folder as root"
 sudo mkdir $buildFolder
 sudo cp -r work/* $buildFolder
 
-sudo chmod 750 ~/ArcoBoboFeb-build/archiso/airootfs/etc/sudoers.d
-sudo chmod 750 ~/ArcoBoboFeb-build/archiso/airootfs/etc/polkit-1/rules.d
-sudo chgrp polkitd ~/ArcoBoboFeb-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chmod 750 ~/ArcoBoboXfce-build/archiso/airootfs/etc/sudoers.d
+sudo chmod 750 ~/ArcoBoboXfce-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chgrp polkitd ~/ArcoBoboXfce-build/archiso/airootfs/etc/polkit-1/rules.d
 
 echo "Deleting the work folder if one exists - clean up"
 [ -d work ] && rm -rf work

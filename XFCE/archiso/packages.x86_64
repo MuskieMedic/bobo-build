@@ -255,16 +255,16 @@ lshw
 meld
 nitrogen
 numlockx
-pragha
+#pragha
 qbittorrent
 scrot
 simplescreenrecorder
 termite
-variety
+#variety
 vlc
 
 ###conky
-jq
+#jq
 #lm_sensors
 
 ###cursors
@@ -428,7 +428,7 @@ mkinitcpio-openswap
 ###utilities-repo
 archiso
 aurvote-git
-conky-lua-archers
+#conky-lua-archers
 downgrade
 font-manager-git
 glxinfo
@@ -474,7 +474,7 @@ yay-bin
 arcolinux-arc-themes-nico-git
 arcolinux-bin-git
 #arcolinux-common-git
-arcolinux-conky-collection-git
+#arcolinux-conky-collection-git
 #arcolinux-conky-collection-plasma-git
 arcolinux-cron-git
 #arcolinux-docs-git
@@ -750,38 +750,39 @@ xfce4-panel-profiles
 ###########################################################################
 #                           BOBO CALAMARES
 ###########################################################################
-bobo-calamares-config-git
-bobo-system-installation-git
-bobo-grub-theme-vimix-git
+bobo-xfce-calamares-config
+bobo-system-installation
+bobo-grub-theme-vimix
 arcolinux-welcome-app-git
 
 ###########################################################################
 #                             BOBO CONFIGS
 ###########################################################################
-bobo-root-git
-bobo-gimp-git
-bobo-lightdm-gtk-greeter-git
-bobo-plank-git
-bobo-juno-themes-git
-bobo-candy-icons-git
-bobo-wallpapers-git
+bobo-root
+bobo-gimp
+bobo-lightdm-gtk-greeter-settings
+bobo-plank
+bobo-juno-themes
+bobo-candy-icons
+bobo-bibata-cursors
+bobo-wallpapers
 
 ###########################################################################
 #                             BOBO XFCE
 ###########################################################################
-bobo-xfce-git
-bobo-xfce-config-git
-bobo-xfce-dconf-git
+bobo-xfce
+bobo-xfce-config
+bobo-xfce-dconf
 #bobo-xfce-local-git
-bobo-xfce4-panel-profiles-git
+bobo-xfce4-panel-profiles
 
 ###########################################################################
 #                           EXTRA APPLICATIONS
 ###########################################################################
 brave
 discord
-code
-strawberry
+#code
+#strawberry
 #krita
 gimp-plugin-gmic
 gnome-calculator

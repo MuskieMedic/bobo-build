@@ -114,11 +114,15 @@ echo
 
 sudo ./build.sh -v
 
+
+
 echo
 echo "################################################################## "
 tput setaf 2;echo "Phase 8 : Moving the iso to out folder";tput sgr0
 echo "################################################################## "
 echo
+
+read -p "Press enter to continue"
 
 [ -d $outFolder ] || mkdir $outFolder
 cp $buildFolder/archiso/out/arcolinux* $outFolder

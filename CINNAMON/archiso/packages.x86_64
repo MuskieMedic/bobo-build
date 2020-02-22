@@ -386,7 +386,7 @@ zsh-syntax-highlighting
 #breeze-cursors-lh
 #breeze-obsidian-cursor-theme
 #oxy-neon
-bibata-cursor-theme
+#bibata-cursor-theme
 breeze
 #xcursor-vanilla-dmz-aa
 
@@ -473,7 +473,7 @@ arcolinux-keyring
 arcolinux-kvantum-git
 #arcolinux-kvantum-lxqt-git
 #arcolinux-kvantum-plasma-git
-arcolinux-lightdm-gtk-greeter
+#arcolinux-lightdm-gtk-greeter
 #arcolinux-lightdm-gtk-greeter-plasma
 bobo-lightdm-gtk-greeter-settings
 #arcolinux-local-applications-git

@@ -751,36 +751,35 @@ gtk-engine-murrine
 ###########################################################################
 #                           BOBO CALAMARES
 ###########################################################################
-bobo-calamares-xfce-bspwm-config-git
-bobo-system-installation-git
-bobo-grub-theme-vimix-git
-arcolinux-welcome-app-git
+bobo-xfce-bspwm-calamares-config
+bobo-system-installation
+bobo-grub-theme-vimix
+arcolinux-welcome-app
 
 ###########################################################################
 #                             BOBO CONFIGS
 ###########################################################################
-bobo-root-git
-bobo-gimp-git
-bobo-polybar-git
-bobo-lightdm-gtk-greeter-git
-bobo-plank-git
-bobo-juno-themes-git
-bobo-candy-icons-git
-bobo-wallpapers-git
+bobo-root
+bobo-gimp
+bobo-polybar
+bobo-lightdm-gtk-greeter-settings
+bobo-plank
+bobo-juno-themes
+bobo-candy-icons
+bobo-wallpapers
 
 ###########################################################################
 #                             BOBO XFCE
 ###########################################################################
-bobo-xfce-git
-bobo-xfce-config-git
-bobo-xfce-dconf-git
-#bobo-xfce-local-git
-bobo-xfce4-panel-profiles-git
+bobo-xfce
+bobo-xfce-config
+bobo-xfce-dconf
+bobo-xfce4-panel-profiles
 
 ###########################################################################
 #                             BOBO BSPWM
 ###########################################################################
-bobo-bspwm-git
+bobo-bspwm
 
 ###########################################################################
 #                           EXTRA APPLICATIONS

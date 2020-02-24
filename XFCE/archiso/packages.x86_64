@@ -473,7 +473,7 @@ arcolinux-keyring
 arcolinux-kvantum-git
 #arcolinux-kvantum-lxqt-git
 #arcolinux-kvantum-plasma-git
-arcolinux-lightdm-gtk-greeter
+##### replaced arcolinux-lightdm-gtk-greeter
 #arcolinux-lightdm-gtk-greeter-plasma
 ##### replaced arcolinux-lightdm-gtk-greeter-settings
 arcolinux-local-applications-git

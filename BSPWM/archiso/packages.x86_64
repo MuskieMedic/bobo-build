@@ -748,43 +748,44 @@ gtk-engine-murrine
 ###########################################################################
 #                           HEFFTOR CALAMARES
 ###########################################################################
-bobo-calamares-bspwm-git
-bobo-system-installation-git
-bobo-grub-theme-vimix-git
+bobo-bspwm-calamares-config
+bobo-system-installation
+bobo-grub-theme-vimix
 arcolinux-welcome-app-git
+arcolinux-tweak-tool-git
 
 ###########################################################################
 #                             HEFFTOR CONFIGS
 ###########################################################################
-bobo-root-git
-bobo-gimp-git
-bobo-polybar-git
-bobo-lightdm-gtk-greeter-git
-bobo-juno-themes-git
-bobo-candy-icons-git
-bobo-wallpapers-git
+bobo-root
+bobo-gimp
+bobo-polybar
+bobo-lightdm-gtk-greeter-settings
+bobo-juno-themes
+bobo-candy-icons
+bobo-wallpapers
+bobo-bibata-cursors
 
 ###########################################################################
 #                             HEFFTOR XFCE
 ###########################################################################
-bobo-xfce-git
+bobo-xfce
 # bobo-xfce-config-git
 # bobo-xfce-dconf-git
-bobo-xfce4-panel-profiles-git
+bobo-xfce4-panel-profiles
 
 ###########################################################################
 #                             HEFFTOR BSPWM
 ###########################################################################
-bobo-bspwm-git
-bobo-bspwm-config-git
-bobo-bspwm-dconf-git
+bobo-bspwm
+bobo-bspwm-config
+bobo-bspwm-dconf
 
 ###########################################################################
 #                         HEFFTOR APPLICATIONS
 ###########################################################################
-#betterlockscreen-git
-#hefftor-skelapp-git
-#thermald
+
+
 
 ###########################################################################
 #                           EXTRA APPLICATIONS

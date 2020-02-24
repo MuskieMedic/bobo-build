@@ -112,7 +112,7 @@ tput setaf 2;echo "Phase 7 : Build ISO";tput sgr0
 echo "################################################################## "
 echo
 
-sudo ./build.sh -v
+sudo ./build-bspwm.sh -v
 
 echo
 echo "################################################################## "

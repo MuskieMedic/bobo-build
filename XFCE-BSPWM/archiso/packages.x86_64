@@ -311,7 +311,7 @@ arandr
 asciinema
 bash-completion
 baobab
-catfish
+#catfish
 cronie
 dconf-editor
 dex

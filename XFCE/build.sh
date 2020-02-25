@@ -1,7 +1,7 @@
 #!/bin/bash
 #set -e
-buildFolder="$HOME/BoboXfce-build"
-outFolder="$HOME/BoboXfce-Out"
+buildFolder="$HOME/boboxfce-build"
+outFolder="$HOME/boboxfce-Out"
 
 echo
 echo "################################################################## "
@@ -114,7 +114,7 @@ echo
 
 sudo ./build-xfce.sh -v
 
-
+read -p "Press enter to continue"
 
 echo
 echo "################################################################## "
@@ -122,10 +122,9 @@ tput setaf 2;echo "Phase 8 : Moving the iso to out folder";tput sgr0
 echo "################################################################## "
 echo
 
-read -p "Press enter to continue"
 
 [ -d $outFolder ] || mkdir $outFolder
-cp $buildFolder/archiso/out/arcolinux* $outFolder
+cp $buildFolder/archiso/out/arco* $outFolder
 
 echo
 echo "################################################################## "

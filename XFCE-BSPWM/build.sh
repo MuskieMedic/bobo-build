@@ -121,7 +121,7 @@ echo "################################################################## "
 echo
 
 [ -d $outFolder ] || mkdir $outFolder
-cp $buildFolder/archiso/out/arcolinux* $outFolder
+cp $buildFolder/archiso/out/arco* $outFolder
 
 echo
 echo "################################################################## "

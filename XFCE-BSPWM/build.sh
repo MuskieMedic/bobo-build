@@ -1,7 +1,7 @@
 #!/bin/bash
 #set -e
-buildFolder="$HOME/XfBs-build"
-outFolder="$HOME/XfBs-Out"
+buildFolder="$HOME/xfbs-build"
+outFolder="$HOME/xfbs-Out"
 
 echo
 echo "################################################################## "
@@ -88,9 +88,9 @@ echo "Copying files and folder to build folder as root"
 sudo mkdir $buildFolder
 sudo cp -r work/* $buildFolder
 
-sudo chmod 750 ~/XfBs-build/archiso/airootfs/etc/sudoers.d
-sudo chmod 750 ~/XfBs-build/archiso/airootfs/etc/polkit-1/rules.d
-sudo chgrp polkitd ~/XfBs-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chmod 750 ~/xfbs-build/archiso/airootfs/etc/sudoers.d
+sudo chmod 750 ~/xfbs-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chgrp polkitd ~/xfbs-build/archiso/airootfs/etc/polkit-1/rules.d
 
 echo "Deleting the work folder if one exists - clean up"
 [ -d work ] && rm -rf work
@@ -112,8 +112,8 @@ tput setaf 2;echo "Phase 7 : Build ISO";tput sgr0
 echo "################################################################## "
 echo
 
-sudo ./build-xfce-bspwm.sh -v
-
+sudo ./build-xfbs.sh -v
+read -p "Press enter to continue"
 echo
 echo "################################################################## "
 tput setaf 2;echo "Phase 8 : Moving the iso to out folder";tput sgr0

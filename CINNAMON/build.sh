@@ -1,7 +1,7 @@
 #!/bin/bash
 #set -e
-buildFolder="$HOME/Bobocinnamon-build"
-outFolder="$HOME/Bobocinnamon-Out"
+buildFolder="$HOME/bobo-build"
+outFolder="$HOME/BOBOLINUX/cinnamon"
 
 echo
 echo "################################################################## "
@@ -88,9 +88,9 @@ echo "Copying files and folder to build folder as root"
 sudo mkdir $buildFolder
 sudo cp -r work/* $buildFolder
 
-sudo chmod 750 ~/Bobocinnamon-build/archiso/airootfs/etc/sudoers.d
-sudo chmod 750 ~/Bobocinnamon-build/archiso/airootfs/etc/polkit-1/rules.d
-sudo chgrp polkitd ~/Bobocinnamon-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chmod 750 ~/bobo-build/archiso/airootfs/etc/sudoers.d
+sudo chmod 750 ~/bobo-build/archiso/airootfs/etc/polkit-1/rules.d
+sudo chgrp polkitd ~/bobo-build/archiso/airootfs/etc/polkit-1/rules.d
 
 echo "Deleting the work folder if one exists - clean up"
 [ -d work ] && rm -rf work
@@ -121,7 +121,7 @@ echo "################################################################## "
 echo
 
 [ -d $outFolder ] || mkdir $outFolder
-cp $buildFolder/archiso/out/arcolinux* $outFolder
+cp $buildFolder/archiso/out/arco* $outFolder
 
 echo
 echo "################################################################## "

@@ -4,6 +4,9 @@ buildFolder="$HOME/bobo-build"
 betweenfolder="$HOME/BOBOLINUX"
 outFolder="$HOME/BOBOLINUX/cinnamon"
 
+[ -d $betweenfolder ] || mkdir $betweenfolder
+[ -d $outFolder ] || mkdir $outFolder
+
 echo
 echo "################################################################## "
 tput setaf 2;echo "Phase 1 : clean up and download the latest ArcoLinux Bobo ISO from github";tput sgr0
@@ -121,8 +124,7 @@ tput setaf 2;echo "Phase 8 : Moving the iso to out folder";tput sgr0
 echo "################################################################## "
 echo
 
-[ -d $betweenfolder ] || mkdir $betweenfolder
-[ -d $outFolder ] || mkdir $outFolder
+
 cp $buildFolder/archiso/out/arco* $outFolder
 
 echo

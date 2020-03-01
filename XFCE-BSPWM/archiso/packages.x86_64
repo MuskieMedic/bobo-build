@@ -264,7 +264,7 @@ termite
 vlc
 
 ###conky
-jq
+#jq
 #lm_sensors
 
 ###cursors
@@ -362,7 +362,7 @@ qt5-webkit
 powertop
 reflector
 #redshift
-#rofi
+rofi
 rxvt-unicode
 simple-scan
 #shotwell
@@ -428,7 +428,7 @@ mkinitcpio-openswap
 ###utilities-repo
 archiso
 aurvote-git
-conky-lua-archers
+#conky-lua-archers
 downgrade
 font-manager-git
 glxinfo
@@ -474,7 +474,7 @@ yay-bin
 arcolinux-arc-themes-nico-git
 arcolinux-bin-git
 #arcolinux-common-git
-arcolinux-conky-collection-git
+#arcolinux-conky-collection-git
 #arcolinux-conky-collection-plasma-git
 arcolinux-cron-git
 #arcolinux-docs-git
@@ -510,8 +510,8 @@ arcolinux-pipemenus-git
 # arcolinux-polybar-git
 # arcolinux-qt5-git
 #arcolinux-qt5-plasma-git
-# arcolinux-rofi-git
-#arcolinux-rofi-themes-git
+arcolinux-rofi-git
+arcolinux-rofi-themes-git
 # arcolinux-root-git
 # arcolinux-slim
 # arcolinux-slimlock-themes-git

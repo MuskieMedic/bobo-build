@@ -266,8 +266,8 @@ termite
 vlc
 
 ###conky
-jq
-lm_sensors
+#jq
+#lm_sensors
 
 ###cursors
 xcursor-simpleandsoft
@@ -363,7 +363,7 @@ qt5-webkit
 powertop
 reflector
 #redshift
-#rofi
+rofi
 rxvt-unicode
 simple-scan
 #shotwell
@@ -515,8 +515,8 @@ arcolinux-pipemenus-git
 # arcolinux-polybar-git
 # arcolinux-qt5-git
 # arcolinux-qt5-plasma-git
-# arcolinux-rofi-git
-# arcolinux-rofi-themes-git
+arcolinux-rofi-git
+arcolinux-rofi-themes-git
 # arcolinux-root-git
 # arcolinux-slim
 # arcolinux-slimlock-themes-git

@@ -259,7 +259,7 @@ variety
 #vlc
 
 ###conky
-jq
+#jq
 #lm_sensors
 
 ###cursors
@@ -347,7 +347,7 @@ qt5-webkit
 #powertop
 reflector
 #redshift
-#rofi
+rofi
 rxvt-unicode
 #simple-scan
 #shotwell
@@ -416,7 +416,7 @@ mkinitcpio-openswap
 ###utilities-repo
 archiso
 #aurvote-git
-conky-lua-archers
+#conky-lua-archers
 downgrade
 #font-manager-git
 #glxinfo
@@ -497,8 +497,8 @@ arcolinux-pipemenus-git
 #arcolinux-polybar-git
 arcolinux-qt5-git
 #arcolinux-qt5-plasma-git
-#arcolinux-rofi-git
-#arcolinux-rofi-themes-git
+arcolinux-rofi-git
+arcolinux-rofi-themes-git
 bobo-root
 #arcolinux-slim
 #arcolinux-slimlock-themes-git

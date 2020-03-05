@@ -1,13 +1,14 @@
 #!/bin/bash
 #set -e
+
+SECONDS=0
+
 buildFolder="$HOME/bobo-build"
 betweenfolder="$HOME/BOBOLINUX"
 outFolder="$HOME/BOBOLINUX/bspwm"
 
 
 
-[ -d $betweenfolder ] || mkdir $betweenfolder
-[ -d $outFolder ] || mkdir $outFolder
 
 echo
 echo "################################################################## "
@@ -125,8 +126,25 @@ echo "################################################################## "
 tput setaf 2;echo "Phase 8 : Moving the iso to out folder";tput sgr0
 echo "################################################################## "
 echo
-speaker-test -t sine -f 30 -l 1 & sleep .2 && kill -9 $!
+
+
+[ -d $betweenfolder ] || mkdir $betweenfolder
+[ -d $outFolder ] || mkdir $outFolder
+
 cp $buildFolder/archiso/out/arco* $outFolder
+
+if (( $SECONDS > 3600 )) ; then
+    let "hours=SECONDS/3600"
+    let "minutes=(SECONDS%3600)/60"
+    let "seconds=(SECONDS%3600)%60"
+    echo "Completed in $hours hour(s), $minutes minute(s) and $seconds second(s)" 
+elif (( $SECONDS > 60 )) ; then
+    let "minutes=(SECONDS%3600)/60"
+    let "seconds=(SECONDS%3600)%60"
+    echo "Completed in $minutes minute(s) and $seconds second(s)"
+else
+    echo "Completed in $SECONDS seconds"
+fi
 
 echo
 echo "################################################################## "

@@ -125,6 +125,8 @@ tput setaf 2;echo "Phase 8 : Moving the iso to out folder";tput sgr0
 echo "################################################################## "
 echo
 
+speaker-test -t sine -f 30 -l 1 & sleep .2 && kill -9 $!
+
 cp $buildFolder/archiso/out/arco* $outFolder
 
 echo

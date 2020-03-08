@@ -798,6 +798,9 @@ xfce4-taskmanager
 #                                ISO SPECIFIC
 ###########################################################################
 
+bobo-candy-icons
+bobo-juno-themes
+
 #polybar
 polybar
 

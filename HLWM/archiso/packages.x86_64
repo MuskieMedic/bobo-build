@@ -467,7 +467,7 @@ arcolinux-cron-git
 #arcolinux-faces-git
 arcolinux-fonts-git
 #arcolinux-geany-git
-#replaced arcolinux-grub-theme-vimix-git
+##arcolinux-grub-theme-vimix-git
 bobo-grub-theme-vimix
 arcolinux-hblock-git
 arcolinux-keyring
@@ -496,7 +496,8 @@ arcolinux-pipemenus-git
 #arcolinux-plank-git
 #arcolinux-plank-themes-git
 #arcolinux-plasma-kservices-git
-arcolinux-polybar-git
+##arcolinux-polybar-git
+bobo-polybar
 arcolinux-qt5-git
 #arcolinux-qt5-plasma-git
 arcolinux-rofi-git
@@ -531,7 +532,8 @@ arcolinux-zsh-git
 #arcolinux-dwm-git
 #arcolinux-enlightenment-git
 #arcolinux-gnome-git
-arcolinux-herbstluftwm-git
+#arcolinux-herbstluftwm-git
+bobo-hlwm
 #arcolinux-i3wm-git
 #arcolinux-jwm-git
 #arcolinux-lxqt-git
@@ -560,7 +562,7 @@ bobo-xfce
 #arcolinux-config-enlightenment-git
 #arcolinux-config-git
 #arcolinux-config-gnome-git
-#arcolinux-config-herbstluftwm-git
+##arcolinux-config-herbstluftwm-git
 bobo-hlwm-config
 #arcolinux-config-i3wm-git
 #arcolinux-config-jwm-git
@@ -587,7 +589,7 @@ bobo-hlwm-config
 #arcolinux-dwm-dconf-git
 #arcolinux-enlightenment-dconf-git
 #arcolinux-gnome-dconf-git
-#arcolinux-herbstluftwm-dconf-git
+##arcolinux-herbstluftwm-dconf-git
 bobo-hlwm-dconf
 #arcolinux-i3wm-dconf-git
 #arcolinux-jwm-dconf-git

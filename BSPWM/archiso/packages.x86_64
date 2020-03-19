@@ -400,8 +400,8 @@ vivaldi
 #vivaldi-codecs-ffmpeg-extra-bin
 
 ###cursors
-breeze-cursors-lh
-breeze-obsidian-cursor-theme
+#breeze-cursors-lh
+#breeze-obsidian-cursor-theme
 oxy-neon
 #xcursor-breeze
 xcursor-vanilla-dmz-aa

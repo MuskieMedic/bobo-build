@@ -489,7 +489,7 @@ arcolinux-kvantum-git
 #arcolinux-kvantum-plasma-git
 # arcolinux-lightdm-gtk-greeter
 #arcolinux-lightdm-gtk-greeter-plasma
-arcolinux-lightdm-gtk-greeter-settings
+#arcolinux-lightdm-gtk-greeter-settings
 arcolinux-local-applications-git
 arcolinux-local-xfce4-git
 #arcolinux-logo-git
@@ -762,6 +762,7 @@ arcolinux-welcome-app-git
 bobo-root
 bobo-gimp
 bobo-polybar
+bobo-lightdm-gtk-greeter
 bobo-lightdm-gtk-greeter-settings
 bobo-plank
 bobo-juno-themes

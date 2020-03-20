@@ -784,6 +784,7 @@ xfce4-panel-profiles
 #                           BOBO FOLDER
 ###########################################################################
 bobo-grub-theme-vimix
+bobo-lightdm-gtk-greeter
 bobo-lightdm-gtk-greeter-settings
 bobo-root
 bobo-wallpapers

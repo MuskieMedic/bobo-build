@@ -131,7 +131,7 @@ mesa
 #opencl-mesa
 #primus
 #vulkan-intel
-vulkan-radeon
+#vulkan-radeon
 
 ###base and base-devel
 base
@@ -232,7 +232,7 @@ atom
 #chromium
 #darktable
 #deadbeef
-#dmenu
+dmenu
 #evolution
 feh
 firefox
@@ -255,11 +255,11 @@ numlockx
 scrot
 simplescreenrecorder
 termite
-#variety
+variety
 #vlc
 
 ###conky
-#jq
+jq
 #lm_sensors
 
 ###cursors
@@ -331,7 +331,7 @@ laptop-detect
 lsb-release
 mlocate
 #nomacs
-#oh-my-zsh-git
+oh-my-zsh-git
 p7zip
 #plank
 playerctl
@@ -370,9 +370,9 @@ xdotool
 xdg-desktop-portal-gtk
 youtube-dl
 zenity
-#zsh
-#zsh-completions
-#zsh-syntax-highlighting
+zsh
+zsh-completions
+zsh-syntax-highlighting
 
 ###########################################################################
 #                           ARCOLINUX_REPOS
@@ -416,7 +416,7 @@ mkinitcpio-openswap
 ###utilities-repo
 archiso
 #aurvote-git
-#conky-lua-archers
+conky-lua-archers
 downgrade
 #font-manager-git
 #glxinfo
@@ -460,7 +460,7 @@ yay-bin
 arcolinux-arc-themes-nico-git
 arcolinux-bin-git
 #arcolinux-common-git
-#arcolinux-conky-collection-git
+arcolinux-conky-collection-git
 #arcolinux-conky-collection-plasma-git
 arcolinux-cron-git
 #arcolinux-docs-git
@@ -475,7 +475,7 @@ arcolinux-kvantum-git
 #arcolinux-kvantum-plasma-git
 ##### replaced arcolinux-lightdm-gtk-greeter
 #arcolinux-lightdm-gtk-greeter-plasma
-##### replaced arcolinux-lightdm-gtk-greeter-settings
+arcolinux-lightdm-gtk-greeter-settings
 arcolinux-local-applications-git
 arcolinux-local-xfce4-git
 #arcolinux-logo-git
@@ -492,7 +492,7 @@ arcolinux-neofetch-git
 #arcolinux-openbox-themes-git
 arcolinux-pipemenus-git
 #arcolinux-plank-git
-#arcolinux-plank-themes-git
+arcolinux-plank-themes-git
 #arcolinux-plasma-kservices-git
 #arcolinux-polybar-git
 ##### replaced arcolinux-qt5-git
@@ -508,12 +508,12 @@ arcolinux-termite-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
 arcolinux-tweak-tool-git
-#arcolinux-variety-git
+arcolinux-variety-git
 ##### replaced arcolinux-wallpapers-git
 #arcolinux-wallpapers-lxqt-dual-git
 ##### replaced arcolinux-xfce4-panel-profiles-git
 #arcolinux-xmobar-git
-#arcolinux-zsh-git
+arcolinux-zsh-git
 
 ###########################################################################
 #                           ARCOLINUX DESKTOP FOLDER
@@ -624,6 +624,9 @@ squashfs-tools
 plasma-framework
 hwinfo
 qt5-xmlpatterns
+adobe-source-han-sans-jp-fonts
+adobe-source-han-sans-kr-fonts
+adobe-source-han-sans-cn-fonts
 
 ###########################################################################
 #                                ARCOLINUX CONFIG CALAMARES
@@ -764,7 +767,7 @@ xfce4-netload-plugin
 xfce4-notes-plugin
 xfce4-notifyd
 xfce4-pulseaudio-plugin
-xfce4-screensaver
+#xfce4-screensaver
 xfce4-screenshooter
 xfce4-sensors-plugin
 xfce4-smartbookmark-plugin
@@ -785,7 +788,7 @@ xfce4-panel-profiles
 ###########################################################################
 bobo-grub-theme-vimix
 bobo-lightdm-gtk-greeter
-bobo-lightdm-gtk-greeter-settings
+#bobo-lightdm-gtk-greeter-settings
 bobo-root
 bobo-wallpapers
 bobo-system-installation
@@ -794,7 +797,7 @@ bobo-system-installation
 #                             BOBO EXTRA
 ###########################################################################
 bobo-gimp
-#bobo-plank
+bobo-plank
 bobo-juno-themes
 bobo-candy-icons
 #bobo-bibata-cursors
@@ -811,13 +814,13 @@ bobo-xfce-calamares-config
 ###########################################################################
 #                           EXTRA APPLICATIONS
 ###########################################################################
-brave
+#brave
 discord
 mpv
-code
-strawberry
+#code
+#strawberry
 gimp-plugin-gmic
 gcolor3
-tlp
-tlp-rdw
+#tlp
+#tlp-rdw
 synapse

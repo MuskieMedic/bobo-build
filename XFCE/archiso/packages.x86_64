@@ -475,7 +475,7 @@ arcolinux-kvantum-git
 #arcolinux-kvantum-plasma-git
 ##### replaced arcolinux-lightdm-gtk-greeter
 #arcolinux-lightdm-gtk-greeter-plasma
-arcolinux-lightdm-gtk-greeter-settings
+#arcolinux-lightdm-gtk-greeter-settings
 arcolinux-local-applications-git
 arcolinux-local-xfce4-git
 #arcolinux-logo-git
@@ -788,7 +788,7 @@ xfce4-panel-profiles
 ###########################################################################
 bobo-grub-theme-vimix
 bobo-lightdm-gtk-greeter
-#bobo-lightdm-gtk-greeter-settings
+bobo-lightdm-gtk-greeter-settings
 bobo-root
 bobo-wallpapers
 bobo-system-installation

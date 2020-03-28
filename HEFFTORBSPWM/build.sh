@@ -5,10 +5,12 @@
 #   DO NOT JUST RUN THIS. EXAMINE AND JUDGE. RUN AT YOUR OWN RISK.
 #
 ##################################################################################################################
-SECONDS=0
-
 buildFolder="$HOME/ArcoBobo-build"
-outFolder="$HOME/ArcoBobo-OUT/BSPWM"
+outFolder="$HOME/ArcoBobo/BSPWM"
+
+#Setting variables
+#Let us change the name"
+#First letter of desktop small
 
 desktop="bspwm"
 
@@ -43,7 +45,7 @@ newname8='ArcoBobo-'$desktop
 
 echo
 echo "################################################################## "
-tput setaf 2;echo "Phase 1 : clean up and download the latest ArcoLinux Bobo ISO from github";tput sgr0
+tput setaf 2;echo "Phase 1 : clean up and download the latest bo-iso from github";tput sgr0
 echo "################################################################## "
 echo
 echo "Deleting the work folder if one exists"
@@ -51,7 +53,7 @@ echo "Deleting the work folder if one exists"
 echo "Deleting the build folder if one exists - takes some time"
 [ -d $buildFolder ] && sudo rm -rf $buildFolder
 echo "Git cloning files and folder to work folder"
-git clone https://github.com/PeterDauwe/bobo-iso ../work
+git clone https://github.com/bobo5290461/bo-iso ../work
 
 echo
 echo "################################################################## "
@@ -177,19 +179,6 @@ echo
 
 [ -d $outFolder ] || mkdir -p $outFolder
 cp $buildFolder/archiso/out/arco* $outFolder
-
-if (( $SECONDS > 3600 )) ; then
-    let "hours=SECONDS/3600"
-    let "minutes=(SECONDS%3600)/60"
-    let "seconds=(SECONDS%3600)%60"
-    echo "Completed in $hours hour(s), $minutes minute(s) and $seconds second(s)" 
-elif (( $SECONDS > 60 )) ; then
-    let "minutes=(SECONDS%3600)/60"
-    let "seconds=(SECONDS%3600)%60"
-    echo "Completed in $minutes minute(s) and $seconds second(s)"
-else
-    echo "Completed in $SECONDS seconds"
-fi
 
 echo
 echo "################################################################## "

@@ -197,10 +197,6 @@ gvfs-mtp
 gvfs-nfs
 gvfs-smb
 mtpfs
-#thunar
-#thunar-archive-plugin
-#thunar-media-tags-plugin
-#thunar-volman
 udiskie
 udisks2
 xdg-user-dirs
@@ -235,7 +231,6 @@ poppler-qt5
 ###applications
 atom
 #chromium
-#picom
 #darktable
 #deadbeef
 #dmenu
@@ -261,7 +256,6 @@ numlockx
 scrot
 simplescreenrecorder
 termite
-#tint2
 variety
 vlc
 
@@ -290,17 +284,6 @@ ttf-ubuntu-font-family
 #arc-icon-theme
 #gnome-icon-theme
 #papirus-icon-theme
-
-###lightdm
-#accountsservice
-#lightdm
-
-###lx-applications
-#lxappearance
-#lxappearance-gtk3
-#lxappearance-obconf
-#lxappearance-obconf-gtk3
-#lxrandr
 
 ###themes
 #adapta-gtk-theme
@@ -383,7 +366,6 @@ w3m
 webkit2gtk
 wmctrl
 xapps
-#xcape
 xdo
 xdotool
 xdg-desktop-portal-gtk
@@ -405,7 +387,7 @@ zsh-syntax-highlighting
 #breeze-cursors-lh
 #breeze-obsidian-cursor-theme
 #oxy-neon
-#bibata-cursor-theme
+bibata-cursor-theme
 #breeze
 #xcursor-vanilla-dmz-aa
 
@@ -442,9 +424,7 @@ downgrade
 grub-customizer
 hardcode-fixer-git
 inxi
-#menulibre
 mintstick-git
-#mugshot
 neofetch
 #numix-gtk-theme-git
 pamac-aur
@@ -452,8 +432,8 @@ pamac-aur
 #pulseaudio-equalizer-ladspa
 python-pyparted
 #python-pywal
-#screenkey-git
-#sublime-text-dev
+screenkey-git
+sublime-text-dev
 #the_platinum_searcher-bin
 tmux
 trizen
@@ -477,7 +457,6 @@ yay-bin
 #                           ARCOLINUX FOLDER
 ###########################################################################
 
-#arcolinux-arc-themes-git
 #arcolinux-arc-kde
 #arcolinux-arc-themes-nico-git
 arcolinux-bin-git
@@ -839,7 +818,7 @@ bobo-lightdm-gtk-greeter-settings
 bobo-juno-themes
 bobo-candy-icons
 bobo-wallpapers
-bobo-bibata-cursors
+#bobo-bibata-cursors
 
 ###########################################################################
 #                             BOBO XFCE
@@ -864,7 +843,7 @@ bobo-bspwm-dconf
 discord
 # telegram-desktop
 #dunst
-krita
+#krita
 gimp-plugin-gmic
 gnome-calculator
 gcolor3

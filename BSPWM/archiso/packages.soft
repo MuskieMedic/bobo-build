@@ -7,7 +7,7 @@ atom
 #chromium
 #darktable
 #deadbeef
-#dmenu
+dmenu
 #evolution
 feh
 firefox
@@ -283,7 +283,7 @@ arcolinux-termite-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
 arcolinux-tweak-tool-git
-# arcolinux-variety-git
+arcolinux-variety-git
 # arcolinux-wallpapers-git
 #arcolinux-wallpapers-lxqt-dual-git
 #arcolinux-xfce4-panel-profiles-git

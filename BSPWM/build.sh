@@ -11,27 +11,35 @@ buildFolder="$HOME/ArcoBobo-build"
 outFolder="$HOME/ArcoBobo-OUT/BSPWM"
 
 desktop="bspwm"
+creationdate=y$(date +%y).m$(date +%m).d$(date +%d)
+
 
 #build.sh
-oldname1="iso_name=arcobobo"
-newname1="iso_name=arcobobo-$desktop"
+oldname1='iso_name=arcobobo'
+newname1='iso_name=arcobobo-'$desktop
 
-oldname2='iso_label="arcobobo'
+oldname2='iso_label=arcobobo'
 newname2='iso_label="arcobobo-'$desktop
 
 #os-release
-oldname3='NAME="ArcoBobo"'
+oldname3='NAME=ArcoBobo'
 newname3='NAME=ArcoBobo-'$desktop
 
-oldname4='ID=ArcoBobo'
+oldname4='ID=arcoBobo'
 newname4='ID=ArcoBobo-'$desktop
+
+oldname4b='VERSION_ID=v'
+newname4b='VERSION_ID='$creationdate
 
 #lsb-release
 oldname5='DISTRIB_ID=ArcoBobo'
 newname5='DISTRIB_ID=ArcoBobo-'$desktop
 
-oldname6='DISTRIB_DESCRIPTION="ArcoBobo"'
+oldname6='DISTRIB_DESCRIPTION=ArcoBobo'
 newname6='DISTRIB_DESCRIPTION=ArcoBobo-'$desktop
+
+oldname6b='DISTRIB_RELEASE=v'
+newname6b='DISTRIB_RELEASE='$creationdate
 
 #hostname
 oldname7='ArcoBobo'
@@ -80,8 +88,10 @@ sed -i 's/'$oldname1'/'$newname1'/g' ../work/archiso/build-bspwm.sh
 sed -i 's/'$oldname2'/'$newname2'/g' ../work/archiso/build-bspwm.sh
 sed -i 's/'$oldname3'/'$newname3'/g' ../work/archiso/airootfs/etc/os-release
 sed -i 's/'$oldname4'/'$newname4'/g' ../work/archiso/airootfs/etc/os-release
+sed -i 's/'$oldname4b'/'$newname4b'/g' ../work/archiso/airootfs/etc/os-release
 sed -i 's/'$oldname5'/'$newname5'/g' ../work/archiso/airootfs/etc/lsb-release
 sed -i 's/'$oldname6'/'$newname6'/g' ../work/archiso/airootfs/etc/lsb-release
+sed -i 's/'$oldname6b'/'$newname6b'/g' ../work/archiso/airootfs/etc/lsb-release
 sed -i 's/'$oldname7'/'$newname7'/g' ../work/archiso/airootfs/etc/hostname
 sed -i 's/'$oldname8'/'$newname8'/g' ../work/archiso/airootfs/etc/hosts
 

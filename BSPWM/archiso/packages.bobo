@@ -1,0 +1,66 @@
+###########################################################################
+#                                ISO SPECIFIC
+###########################################################################
+
+#polybar
+polybar
+
+#desktop specific bspwm
+bspwm
+sxhkd
+xdo
+sutils-git
+xtitle-git
+
+###########################################################################
+#                           BOBO CALAMARES
+###########################################################################
+bobo-bspwm-calamares-config
+bobo-system-installation
+bobo-grub-theme-vimix
+#arcolinux-welcome-app-git
+arcolinux-tweak-tool-git
+
+###########################################################################
+#                             BOBO CONFIGS
+###########################################################################
+bobo-root
+bobo-gimp
+bobo-polybar
+bobo-lightdm-gtk-greeter
+bobo-lightdm-gtk-greeter-settings
+bobo-juno-themes
+bobo-candy-icons
+bobo-wallpapers
+#bobo-bibata-cursors
+
+###########################################################################
+#                             BOBO XFCE
+###########################################################################
+bobo-xfce
+# bobo-xfce-config-git
+# bobo-xfce-dconf-git
+bobo-xfce4-panel-profiles
+
+###########################################################################
+#                             BOBO BSPWM
+###########################################################################
+bobo-bspwm
+bobo-bspwm-config
+bobo-bspwm-dconf
+
+###########################################################################
+#                           EXTRA APPLICATIONS
+###########################################################################
+#brave
+# code
+discord
+# telegram-desktop
+#dunst
+#krita
+gimp-plugin-gmic
+gnome-calculator
+gcolor3
+#tlp
+#tlp-rdw
+

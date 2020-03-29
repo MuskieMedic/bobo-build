@@ -1,241 +1,10 @@
-#####################################################################
-##                            PACKAGES AVAILABLE
-#####################################################################
-
-###archiso
-arch-install-scripts
-#b43-fwcutter
-bind-tools
-broadcom-wl
-btrfs-progs
-clonezilla
-crda
-darkhttpd
-ddrescue
-dhclient
-#dhcpcd
-dialog
-diffutils
-dmraid
-dnsmasq
-dnsutils
-dosfstools
-#elinks
-ethtool
-exfat-utils
-f2fs-tools
-fsarchiver
-gnu-netcat
-gpm
-gptfdisk
-#grml-zsh-config
-grub
-hdparm
-ipw2100-fw
-ipw2200-fw
-irssi
-#iwd
-jfsutils
-#lftp
-libatomic_ops
-linux-atm
-linux-firmware
-logrotate
-lsscsi
-lvm2
-man-db
-man-pages
-mc
-mdadm
-mtools
-nano
-ndisc6
-netctl
-nfs-utils
-nilfs-utils
-#nmap
-ntfs-3g
-ntp
-openconnect
-openssh
-openvpn
-partclone
-parted
-partimage
-ppp
-pptpclient
-refind-efi
-reiserfsprogs
-rp-pppoe
-rsync
-sdparm
-sg3_utils
-smartmontools
-sudo
-tcpdump
-testdisk
-usb_modeswitch
-usbutils
-vi
-vim-minimal
-vpnc
-wget
-wireless-regdb
-wireless_tools
-wpa_supplicant
-wvdial
-xfsprogs
-xl2tpd
-
-
-###xorg
-xorg-server
-xorg-apps
-xorg-xinit
-#xterm
-
-###video
-#xorg-drivers
-#xorg-drivers includes
-xf86-input-elographics
-xf86-input-evdev
-xf86-input-libinput
-#xf86-input-synaptics
-xf86-input-vmmouse
-xf86-input-void
-xf86-video-amdgpu
-xf86-video-ati
-#xf86-video-dummy
-xf86-video-fbdev
-xf86-video-intel
-xf86-video-nouveau
-xf86-video-openchrome
-#xf86-video-qxl
-xf86-video-vesa
-xf86-video-vmware
-#xf86-video-voodoo
-#xf86-video-sisusb
-mesa
-
-###hardware video support
-#bumblebee
-#optimus-manager
-#nvidia
-#nvidia-utils
-#nvidia-390xx
-#nvidia-390xx-utils
-#libva-intel-driver
-#libva-vdpau-driver
-#mesa-demos
-#mesa-vdpau
-#opencl-mesa
-#primus
-#vulkan-intel
-#vulkan-radeon
-
-###base and base-devel
-base
-base-devel
-
-###virtual box or vmware
-#open-vm-tools  this made it lag
-virtualbox-guest-modules-arch
-virtualbox-guest-utils
-
-###packages for dual boot
-os-prober
-
-###LUKS encryption
-cryptsetup
-
-###audio
-alsa-firmware
-alsa-plugins
-alsa-lib
-alsa-utils
-gst-libav
-gst-plugins-bad
-gst-plugins-base
-gst-plugins-good
-gst-plugins-ugly
-gstreamer
-libdvdcss
-pulseaudio
-pulseaudio-alsa
-pavucontrol
-volumeicon
-
-###bluetooth
-blueberry
-bluez
-bluez-libs
-bluez-utils
-#bluez-firmware
-pulseaudio-bluetooth
-
-###network
-avahi
-nss-mdns
-mobile-broadband-provider-info
-modemmanager
-networkmanager
-network-manager-applet
-networkmanager-openconnect
-networkmanager-openvpn
-networkmanager-pptp
-networkmanager-vpnc
-networkmanager-dispatcher-ntpd
-openresolv
-#samba
-wpa_supplicant
-
-###file management
-gvfs
-gvfs-afc
-gvfs-gphoto2
-gvfs-mtp
-gvfs-nfs
-gvfs-smb
-mtpfs
-thunar
-thunar-archive-plugin
-thunar-media-tags-plugin
-thunar-volman
-udiskie
-udisks2
-xdg-user-dirs
-
-###printers
-cups
-cups-filters
-cups-pdf
-cups-pk-helper
-ghostscript
-gsfonts
-gtk3-print-backends
-gutenprint
-libcups
-#hplip
-splix
-system-config-printer
-
-###tumbler
-tumbler
-ffmpegthumbnailer
-freetype2
-libgsf
-libopenraw
-poppler-glib
-poppler-qt5
-
 #########################################################################
 #                  SOFTWARE FROM ARCH LINUX REPOSITORIES
 #########################################################################
 
 ###applications
 atom
-# chromium
-picom
+#chromium
 #darktable
 #deadbeef
 #dmenu
@@ -243,7 +12,7 @@ picom
 feh
 firefox
 #flashplugin
-# galculator
+#galculator
 geany
 gimp
 gmrun
@@ -252,58 +21,46 @@ guvcview
 imagemagick
 inkscape
 #libreoffice-fresh
-#lshw
+lshw
 meld
 nitrogen
 numlockx
 #pragha
-qbittorrent
+#qbittorrent
 scrot
 simplescreenrecorder
 termite
-#tint2
-#variety
+variety
 vlc
 
 ###conky
 jq
-lm_sensors
+#lm_sensors
 
 ###cursors
-xcursor-simpleandsoft
+#xcursor-simpleandsoft
 
 ###fonts
 adobe-source-sans-pro-fonts
 awesome-terminal-fonts
 noto-fonts
 #terminus-font
-ttf-bitstream-vera
+#ttf-bitstream-vera
 ttf-dejavu
 ttf-droid
 ttf-hack
-ttf-inconsolata
-ttf-liberation
+#ttf-inconsolata
+#ttf-liberation
 ttf-roboto
 ttf-ubuntu-font-family
 
 ###icons
-arc-icon-theme
-gnome-icon-theme
-papirus-icon-theme
-
-###lightdm
-accountsservice
-lightdm
-
-###lx-applications
-lxappearance
-#lxappearance-gtk3
-#lxappearance-obconf
-#lxappearance-obconf-gtk3
-#lxrandr
+#arc-icon-theme
+#gnome-icon-theme
+#papirus-icon-theme
 
 ###themes
-adapta-gtk-theme
+#adapta-gtk-theme
 arc-gtk-theme
 kvantum-qt5
 kvantum-theme-arc
@@ -316,30 +73,31 @@ baobab
 catfish
 cronie
 dconf-editor
+dex
 dmidecode
-evince
+#evince
 expac
 file-roller
 #filezilla
 git
 gksu
-glances
+#glances
 gnome-disk-utility
 gnome-keyring
-# gnome-screenshot
+gnome-screenshot
 #gnome-software
 #gnome-software-packagekit-plugin
 gparted
-# gpick
-gtop
+#gpick
+#gtop
 hardinfo
-hddtemp
+#hddtemp
 htop
 #hunspell
 #hunspell-en
 #hyphen
 #hyphen-en
-grsync
+#grsync
 intltool
 iw
 jsoncpp
@@ -347,7 +105,8 @@ libmtp
 laptop-detect
 lsb-release
 mlocate
-nomacs
+#nomacs
+oh-my-zsh-git
 p7zip
 #plank
 playerctl
@@ -360,68 +119,68 @@ qt5ct
 qt5-styleplugins
 #qt5-tools
 qt5-webkit
-powertop
+#powertop
 reflector
 #redshift
 rofi
 rxvt-unicode
-simple-scan
+#simple-scan
 #shotwell
 speedtest-cli
-timeshift
+#timeshift
 #tlp
 tree
-ufw
-gufw
+#ufw
+#gufw
 unace
 unrar
 unzip
-vnstat
+#vnstat
 w3m
 webkit2gtk
 wmctrl
 xapps
-#xcape
 xdo
 xdotool
 xdg-desktop-portal-gtk
 youtube-dl
 zenity
-# zsh
-# zsh-completions
-# zsh-syntax-highlighting
+zsh
+zsh-completions
+zsh-syntax-highlighting
 
 ###########################################################################
-#                           ARCOLINUX_REPO_ISO
+#                           ARCOLINUX_REPOS
 ###########################################################################
 
 ###applications
-vivaldi
+#vivaldi
 #vivaldi-codecs-ffmpeg-extra-bin
 
 ###cursors
 #breeze-cursors-lh
 #breeze-obsidian-cursor-theme
-oxy-neon
-# xcursor-breeze
-# xcursor-vanilla-dmz-aa
+#oxy-neon
+bibata-cursor-theme
+#breeze
+#xcursor-vanilla-dmz-aa
 
 ###fonts
 ttf-font-awesome
 ttf-ms-fonts
 
 ###icons
-# faba-icon-theme
-# halo-icons-git
-# moka-icon-theme
- numix-circle-arc-icons-git
- numix-icon-theme-git
- numix-circle-icon-theme-git
- paper-icon-theme
+#faba-icon-theme
+#halo-icons-git
+#moka-icon-theme
+#numix-circle-arc-icons-git
+#numix-icon-theme-git
+#numix-circle-icon-theme-git
+#paper-icon-theme
 sardi-icons
 surfn-icons-git
 #surfn-arc-breeze-icons-git
-# zafiro-icon-theme
+#zafiro-icon-theme
 
 ###network
 #b43-firmware
@@ -429,33 +188,32 @@ surfn-icons-git
 ###tools
 mkinitcpio-openswap
 
-###utilities
-aurvote-git
-#conky-lua-archers
+###utilities-repo
+archiso
+#aurvote-git
+conky-lua-archers
 downgrade
-font-manager-git
-glxinfo
+#font-manager-git
+#glxinfo
 grub-customizer
 hardcode-fixer-git
 inxi
-#menulibre
 mintstick-git
-#mugshot
 neofetch
-numix-gtk-theme-git
+#numix-gtk-theme-git
 pamac-aur
-peek
-pulseaudio-equalizer-ladspa
+#peek
+#pulseaudio-equalizer-ladspa
 python-pyparted
-python-pywal
+#python-pywal
 screenkey-git
 sublime-text-dev
-the_platinum_searcher-bin
+#the_platinum_searcher-bin
 tmux
 trizen
 urxvt-perls
 urxvt-resize-font-git
-wttr
+#wttr
 yad
 #yakuake
 yay-bin
@@ -464,8 +222,7 @@ yay-bin
 #                               GAMES
 ###########################################################################
 
-#steam
-#steam-native-runtime
+#arcolinux-meta-steam
 #lutris
 #sauerbraten
 #xonotic
@@ -474,27 +231,26 @@ yay-bin
 #                           ARCOLINUX FOLDER
 ###########################################################################
 
-#arcolinux-arc-themes-git
 #arcolinux-arc-kde
-arcolinux-arc-themes-nico-git
+#arcolinux-arc-themes-nico-git
 arcolinux-bin-git
 #arcolinux-common-git
-# arcolinux-conky-collection-git
+arcolinux-conky-collection-git
 #arcolinux-conky-collection-plasma-git
 arcolinux-cron-git
 #arcolinux-docs-git
 #arcolinux-faces-git
 arcolinux-fonts-git
-# arcolinux-geany-git
-# arcolinux-grub-theme-vimix-git
+#arcolinux-geany-git
+#replaced arcolinux-grub-theme-vimix-git
 arcolinux-hblock-git
 arcolinux-keyring
 arcolinux-kvantum-git
 #arcolinux-kvantum-lxqt-git
 #arcolinux-kvantum-plasma-git
-# arcolinux-lightdm-gtk-greeter
+#replaced arcolinux-lightdm-gtk-greeter
 #arcolinux-lightdm-gtk-greeter-plasma
-arcolinux-lightdm-gtk-greeter-settings
+#arcolinux-lightdm-gtk-greeter-settings
 arcolinux-local-applications-git
 arcolinux-local-xfce4-git
 #arcolinux-logo-git
@@ -502,7 +258,7 @@ arcolinux-local-xfce4-git
 #arcolinux-lxqt-applications-hide-git
 arcolinux-mirrorlist-git
 arcolinux-neofetch-git
-# arcolinux-nitrogen-git
+arcolinux-nitrogen-git
 arcolinux-oblogout
 arcolinux-oblogout-themes-git
 #arcolinux-obmenu-generator-git
@@ -512,6 +268,7 @@ arcolinux-oblogout-themes-git
 arcolinux-pipemenus-git
 #arcolinux-plank-git
 #arcolinux-plank-themes-git
+#arcolinux-plasma-kservices-git
 # arcolinux-polybar-git
 # arcolinux-qt5-git
 # arcolinux-qt5-plasma-git
@@ -525,11 +282,13 @@ arcolinux-system-config-git
 arcolinux-termite-themes-git
 #arcolinux-tint2-git
 #arcolinux-tint2-themes-git
+arcolinux-tweak-tool-git
 # arcolinux-variety-git
 # arcolinux-wallpapers-git
 #arcolinux-wallpapers-lxqt-dual-git
 #arcolinux-xfce4-panel-profiles-git
 #arcolinux-xmobar-git
+arcolinux-zsh-git
 
 ###########################################################################
 #                           ARCOLINUX DESKTOP FOLDER
@@ -549,6 +308,7 @@ arcolinux-termite-themes-git
 #arcolinux-lxqt-git
 #arcolinux-mate-git
 #arcolinux-openbox-git
+#arcolinux-openboxb-git
 #arcolinux-openbox-xtended-git
 #arcolinux-plasma-git
 #arcolinux-plasma-nemesis-git
@@ -613,9 +373,12 @@ arcolinux-termite-themes-git
 ###########################################################################
 
 arco-calamares
-# arco-calamares-dev
 #arco-calamares-comp
+#arco-calamares-dev
+#arco-calamares-next
 # arcolinux-system-installation-git
+#arcolinux-config-live-session-git
+arcolinux-welcome-app-git
 
 ###########################################################################
 #                                CALAMARES DEPENDENCIES
@@ -629,6 +392,7 @@ ki18n
 kservice
 kwidgetsaddons
 kpmcore
+#kpmcore-git
 boost-libs
 libpwquality
 squashfs-tools
@@ -665,18 +429,50 @@ adobe-source-han-sans-cn-fonts
 #arco-calamares-config-git
 #arco-calamares-config-comp-git
 #arco-calamares-config-dev-git
+#arco-calamares-config-next-git
 #arcod-calamares-config-git
 #arcod-calamares-config-comp-git
 #arcod-calamares-config-dev-git
+#arcod-calamares-config-next-git
 
 ###########################################################################
-#                                DESKTOP SPECIFIC
+#                                DISPLAY MANAGER
+###########################################################################
+
+###lightdm
+accountsservice
+lightdm
+
+###########################################################################
+#                         PICOM OR COMPTON
+###########################################################################
+
+picom
+
+###########################################################################
+#                         GENERAL DESKTOP RELATED
+###########################################################################
+
+#mugshot
+#menulibre
+volumeicon
+
+###########################################################################
+#                         ARCOLINUX ISO SPECIFIC
+###########################################################################
+
+###########################################################################
+#                                 i3
 ###########################################################################
 
 ###i3wm
 #i3status
 #i3blocks
 #i3-gaps
+
+###########################################################################
+#                               OPENBOX
+###########################################################################
 
 ###openbox
 #gtk2-perl
@@ -686,15 +482,28 @@ adobe-source-han-sans-cn-fonts
 #obconf
 #openbox
 #perl-linux-desktopfiles
+#tint2
+#xcape
+#openbox-themes-pambudi-git
+
+###lx-applications
+lxappearance
+#lxappearance-gtk3
+#lxappearance-obconf
+#lxappearance-obconf-gtk3
+#lxrandr
 
 ###########################################################################
 #                                XFCE
 ###########################################################################
 
-###xfce4 group content
+### xfce4 group content
+# https://www.archlinux.org/groups/x86_64/xfce4/
 exo
-garcon
+#garcon
 thunar
+thunar-volman
+tumbler
 xfce4-appfinder
 xfce4-panel
 xfce4-power-manager
@@ -706,11 +515,14 @@ xfdesktop
 xfwm4
 #xfwm4-themes
 
-###xfce4-goodies group content
+### xfce4-goodies group content
+# https://www.archlinux.org/groups/x86_64/xfce4-goodies/
 #mousepad
 #orage
 #parole
 ristretto
+thunar-archive-plugin
+thunar-media-tags-plugin
 #xfburn
 #xfce4-artwork
 #xfce4-battery-plugin
@@ -728,9 +540,10 @@ ristretto
 #xfce4-mpc-plugin
 #xfce4-netload-plugin
 #xfce4-notes-plugin
-# xfce4-notifyd
+xfce4-notifyd
 #xfce4-pulseaudio-plugin
-# xfce4-screenshooter
+#xfce4-screensaver
+xfce4-screenshooter
 #xfce4-sensors-plugin
 #xfce4-smartbookmark-plugin
 #xfce4-systemload-plugin
@@ -744,74 +557,4 @@ xfce4-taskmanager
 #xfce4-xkb-plugin
 
 #xfce4-panel-profiles
-gtk-engine-murrine
-
-
-###########################################################################
-#                           HEFFTOR CALAMARES
-###########################################################################
-bobo-bspwm-calamares-config
-bobo-system-installation
-bobo-grub-theme-vimix
-arcolinux-welcome-app-git
-arcolinux-tweak-tool-git
-
-###########################################################################
-#                             HEFFTOR CONFIGS
-###########################################################################
-bobo-root
-bobo-gimp
-bobo-polybar
-#bobo-lightdm-gtk-greeter
-#bobo-lightdm-gtk-greeter-settings
-bobo-juno-themes
-bobo-candy-icons
-bobo-wallpapers
-bobo-bibata-cursors
-
-###########################################################################
-#                             HEFFTOR XFCE
-###########################################################################
-bobo-xfce
-# bobo-xfce-config-git
-# bobo-xfce-dconf-git
-bobo-xfce4-panel-profiles
-
-###########################################################################
-#                             HEFFTOR BSPWM
-###########################################################################
-bobo-bspwm
-bobo-bspwm-config
-bobo-bspwm-dconf
-
-###########################################################################
-#                         HEFFTOR APPLICATIONS
-###########################################################################
-
-
-
-###########################################################################
-#                           EXTRA APPLICATIONS
-###########################################################################
-brave
-# code
-# discord
-# telegram-desktop
-dunst
-krita
-gimp-plugin-gmic
-gnome-calculator
-gcolor3
-tlp
-tlp-rdw
-dex
-###########################################################################
-#                                ISO SPECIFIC
-###########################################################################
-
-bspwm
-sxhkd
-polybar
-xdo
-sutils-git
-xtitle-git
+#gtk-engine-murrine

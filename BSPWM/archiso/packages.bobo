@@ -37,10 +37,10 @@ bobo-wallpapers
 ###########################################################################
 #                             BOBO XFCE
 ###########################################################################
-bobo-xfce
+##bobo-xfce
 # bobo-xfce-config-git
 # bobo-xfce-dconf-git
-bobo-xfce4-panel-profiles
+##bobo-xfce4-panel-profiles
 
 ###########################################################################
 #                             BOBO BSPWM

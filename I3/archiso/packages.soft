@@ -14,7 +14,7 @@ firefox
 #flashplugin
 #galculator
 #geany
-#gimp
+gimp
 gmrun
 #gsimplecal
 #guvcview
@@ -22,13 +22,13 @@ imagemagick
 #inkscape
 #libreoffice-fresh
 lshw
-#meld
+meld
 nitrogen
 numlockx
 #pragha
 #qbittorrent
 scrot
-#simplescreenrecorder
+simplescreenrecorder
 termite
 variety
 #vlc
@@ -143,7 +143,7 @@ xapps
 xdo
 xdotool
 xdg-desktop-portal-gtk
-#youtube-dl
+youtube-dl
 zenity
 zsh
 zsh-completions

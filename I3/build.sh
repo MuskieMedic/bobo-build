@@ -80,8 +80,8 @@ rm ../work/archiso/packages.x86_64
 echo "Copying the new packages.x86_64 file"
 cp -f archiso/packages.x86_64 ../work/archiso/packages.x86_64
 echo "Adding the packages.bobo file"
-#cp -f archiso/packages.bobo ../work/archiso/packages.bobo
-#cp -f archiso/packages.soft ../work/archiso/packages.soft
+cp -f archiso/packages.arcobobo ../work/archiso/packages.arcobobo
+cp -f archiso/packages.soft ../work/archiso/packages.soft
 #read -p "Press [Enter] key to start backup..."
 
 echo "Removing old files/folders from /etc/skel"

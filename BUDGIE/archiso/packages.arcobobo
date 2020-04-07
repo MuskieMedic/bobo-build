@@ -125,8 +125,8 @@ arcolinux-qt5-git
 #arcolinux-qt5-plasma-git
 arcolinux-rofi-git
 arcolinux-rofi-themes-git
-##arcolinux-root-git
-bobo-root
+arcolinux-root-git
+##bobo-root
 #arcolinux-slim
 #arcolinux-slimlock-themes-git
 arcolinux-system-config-git
@@ -154,8 +154,8 @@ bobo-bibata-cursors
 
 #arcolinux-awesome-git
 #arcolinux-bspwm-git
-#arcolinux-budgie-git
-bobo-budgie
+arcolinux-budgie-git
+#bobo-budgie
 #arcolinux-cinnamon-git
 #arcolinux-deepin-git
 #arcolinux-dwm-git
@@ -172,8 +172,8 @@ bobo-budgie
 #arcolinux-plasma-git
 #arcolinux-plasma-nemesis-git
 #arcolinux-qtile-git
-##arcolinux-xfce-git
-bobo-xfce
+arcolinux-xfce-git
+##bobo-xfce
 #arcolinux-xmonad-polybar-git
 #arcolinux-xmonad-xmobar-git
 
@@ -183,8 +183,8 @@ bobo-xfce
 
 #arcolinux-config-awesome-git
 #arcolinux-config-bspwm-git
-#arcolinux-config-budgie-git
-bobo-budgie-config
+arcolinux-config-budgie-git
+##bobo-budgie-config
 #arcolinux-config-cinnamon-git
 #arcolinux-config-deepin-git
 #arcolinux-config-dwm-git
@@ -210,8 +210,8 @@ bobo-budgie-config
 
 #arcolinux-awesome-dconf-git
 #arcolinux-bspwm-dconf-git
-#arcolinux-budgie-dconf-git
-bobo-budgie-dconf
+arcolinux-budgie-dconf-git
+#bobo-budgie-dconf
 #arcolinux-cinnamon-dconf-git
 #arcolinux-dconf-git
 #arcolinux-deepin-dconf-git

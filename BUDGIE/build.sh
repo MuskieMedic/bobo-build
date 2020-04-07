@@ -8,7 +8,7 @@
 SECONDS=0
 
 buildFolder="$HOME/arcobobo-build"
-outFolder="$HOME/arcobobo-Out/I3"
+outFolder="$HOME/arcobobo-Out/BUDGIE"
 
 desktop="budgie"
 xdesktop="budgie"

@@ -59,6 +59,7 @@ bobo-repo/
 bobo-root/
 bobo-system-installation/
 bobo-tela-blue-icons/
+bobo-termite-themes/
 bobo-test-build/
 bobo-test-repo/
 bobo-variety/

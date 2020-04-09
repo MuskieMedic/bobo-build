@@ -98,8 +98,8 @@ echo
 echo "Renaming to "$newname1
 echo "Renaming to "$newname2
 echo
-sed -i 's/'$oldname1'/'$newname1'/g' ../work/archiso/build-i3.sh
-sed -i 's/'$oldname2'/'$newname2'/g' ../work/archiso/build-i3.sh
+sed -i 's/'$oldname1'/'$newname1'/g' ../work/archiso/build.sh
+sed -i 's/'$oldname2'/'$newname2'/g' ../work/archiso/build.sh
 sed -i 's/'$oldname3'/'$newname3'/g' ../work/archiso/airootfs/etc/os-release
 sed -i 's/'$oldname4'/'$newname4'/g' ../work/archiso/airootfs/etc/os-release
 #sed -i 's/'$oldname4b'/'$newname4b'/g' ../work/archiso/airootfs/etc/os-release
@@ -195,7 +195,7 @@ tput setaf 2;echo "Phase 7 : Building the iso";tput sgr0
 echo "################################################################## "
 echo
 
-sudo ./build-i3.sh -v
+sudo ./build.sh -v
 
 echo
 echo "################################################################## "

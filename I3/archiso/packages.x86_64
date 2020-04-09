@@ -139,8 +139,8 @@ base-devel
 
 ###virtual box or vmware
 #open-vm-tools  this made it lag
-virtualbox-guest-modules-arch
-virtualbox-guest-utils
+#virtualbox-guest-modules-arch
+#virtualbox-guest-utils
 
 ###packages for dual boot
 os-prober

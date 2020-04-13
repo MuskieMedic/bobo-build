@@ -235,10 +235,10 @@ bobo-i3wm-dconf
 #                                ARCOLINUX CALAMARES
 ###########################################################################
 
-arco-calamares
+#arco-calamares
 #arco-calamares-comp
 #arco-calamares-dev
-#arco-calamares-next
+arco-calamares-next
 ##arcolinux-system-installation-git
 bobo-system-installation
 #arcolinux-config-live-session-git
@@ -284,3 +284,7 @@ bobo-i3-calamares-config
 ranger
 python-ueberzug
 bobo-ranger-config
+sndio
+moc-pulse
+bobo-mocp-config
+

@@ -8,9 +8,9 @@
 SECONDS=0
 
 buildFolder="$HOME/arcobobo-build"
-outFolder="$HOME/arcobobo-Out/I3"
+outFolder="$HOME/arcobobo-Out/Fusion"
 
-desktop="i3"
+desktop="fusion"
 xdesktop="i3"
 creationdate=y$(date +%y).m$(date +%m).d$(date +%d)
 
@@ -41,7 +41,7 @@ oldname6='DISTRIB_DESCRIPTION=ArcoLinuxBobo'
 newname6='DISTRIB_DESCRIPTION=ArcoLinuxBobo-'$desktop
 
 oldname6b='DISTRIB_RELEASE=v'
-newname6b='DISTRIB_RELEASE='$creationdate
+newname6b='DISTRIB_RELEASE=Fusion-'$creationdate
 
 #hostname
 oldname7='ArcoLinuxBobo'
@@ -69,7 +69,6 @@ echo "Deleting the build folder if one exists - takes some time"
 [ -d $buildFolder ] && sudo rm -rf $buildFolder
 echo "Git cloning files and folder to work folder"
 git clone https://github.com/PeterDauwe/bobo-iso ../work
-
 echo
 echo "################################################################## "
 tput setaf 2;echo "Phase 2 : Getting the latest versions for some important files";tput sgr0
@@ -105,7 +104,7 @@ sed -i 's/'$oldname4'/'$newname4'/g' ../work/archiso/airootfs/etc/os-release
 #sed -i 's/'$oldname4b'/'$newname4b'/g' ../work/archiso/airootfs/etc/os-release
 sed -i 's/'$oldname5'/'$newname5'/g' ../work/archiso/airootfs/etc/lsb-release
 sed -i 's/'$oldname6'/'$newname6'/g' ../work/archiso/airootfs/etc/lsb-release
-#sed -i 's/'$oldname6b'/'$newname6b'/g' ../work/archiso/airootfs/etc/lsb-release
+sed -i 's/'$oldname6b'/'$newname6b'/g' ../work/archiso/airootfs/etc/lsb-release
 sed -i 's/'$oldname7'/'$newname7'/g' ../work/archiso/airootfs/etc/hostname
 sed -i 's/'$oldname8'/'$newname8'/g' ../work/archiso/airootfs/etc/hosts
 sed -i 's/'$oldname9'/'$newname9'/g' ../work/archiso/airootfs/etc/lightdm/lightdm.conf
@@ -171,7 +170,7 @@ echo "################################################################## "
 echo
 
 echo "Copying files and folder to build folder as root"
-sudo mkdir -p $buildFolder
+sudo mkdir $buildFolder
 sudo cp -r ../work/* $buildFolder
 
 sudo chmod 750 ~/arcobobo-build/archiso/airootfs/etc/sudoers.d

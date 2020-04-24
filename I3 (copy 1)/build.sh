@@ -171,7 +171,7 @@ echo "################################################################## "
 echo
 
 echo "Copying files and folder to build folder as root"
-sudo mkdir -p $buildFolder
+sudo mkdir $buildFolder
 sudo cp -r ../work/* $buildFolder
 
 sudo chmod 750 ~/arcobobo-build/archiso/airootfs/etc/sudoers.d

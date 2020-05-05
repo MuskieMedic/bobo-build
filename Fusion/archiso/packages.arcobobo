@@ -54,7 +54,7 @@ pamac-aur
 #peek
 #pulseaudio-equalizer-ladspa
 python-pyparted
-#python-pywal
+python-pywal
 #screenkey-git
 sublime-text-dev
 #the_platinum_searcher-bin
@@ -104,8 +104,10 @@ bobo-lightdm-gtk-greeter
 ##arcolinux-lightdm-gtk-greeter-settings
 bobo-lightdm-gtk-greeter-settings
 arcolinux-local-applications-git
+#arcolinux-local-applications-plasma-hide-git
 arcolinux-local-xfce4-git
 #arcolinux-logo-git
+arcolinux-logout-git
 #arcolinux-lxqt-applications-add-git
 #arcolinux-lxqt-applications-hide-git
 arcolinux-mirrorlist-git
@@ -142,17 +144,18 @@ arcolinux-tweak-tool-git
 ##arcolinux-variety-git
 bobo-variety
 ##arcolinux-wallpapers-git
-bobo-wallpapers
+bobo-wallpaper1
+#bobo-wallpaper2
+#bobo-wallpaper3
+#bobo-wallpaper4
 #arcolinux-wallpapers-lxqt-dual-git
 #arcolinux-xfce4-panel-profiles-git
 #arcolinux-xmobar-git
 arcolinux-zsh-git
 
-arcolinux-logout-git
+arcolinux-logout-themes-git
 
-bobo-juno-themes
-bobo-candy-icons
-bobo-bibata-cursors
+
 
 ###########################################################################
 #                           ARCOLINUX DESKTOP FOLDER
@@ -168,7 +171,6 @@ bobo-bibata-cursors
 #arcolinux-gnome-git
 #arcolinux-herbstluftwm-git
 ##arcolinux-i3wm-git
-##bobo-i3wm
 bobo-fusion-i3-config
 #arcolinux-jwm-git
 #arcolinux-lxqt-git
@@ -288,9 +290,9 @@ bobo-fusion-calamares-config
 #                                BOBOLINUX 
 ###########################################################################
 
-ranger
+#ranger
 python-ueberzug
-bobo-ranger-config
+#bobo-ranger-config
 sndio
 moc-pulse
 bobo-mocp-config
@@ -301,6 +303,16 @@ zathura
 zathura-pdf-poppler
 zathura-cb
 zathura-djvu
+alacritty
+jgmenu
+vifm
+#########################bobo-config
+bobo-alacritty-config
+bobo-vifm-config
+bobo-juno-themes
+bobo-candy-icons
+bobo-bibata-cursors
+autotiling
 
 ##extra for hybrid
 

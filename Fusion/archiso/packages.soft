@@ -74,7 +74,7 @@ bash-completion
 cronie
 dconf-editor
 dex
-dmidecode
+#dmidecode
 #evince
 expac
 file-roller
@@ -277,10 +277,10 @@ thunar-media-tags-plugin
 #xfce4-mpc-plugin
 #xfce4-netload-plugin
 #xfce4-notes-plugin
-#xfce4-notifyd
+xfce4-notifyd
 #xfce4-pulseaudio-plugin
 #xfce4-screensaver
-#xfce4-screenshooter
+xfce4-screenshooter
 #xfce4-sensors-plugin
 #xfce4-smartbookmark-plugin
 #xfce4-systemload-plugin

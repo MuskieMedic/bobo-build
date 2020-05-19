@@ -206,6 +206,7 @@ volumeicon
 i3status
 i3blocks
 i3-gaps
+autotiling
 
 ###########################################################################
 #                               OPENBOX
@@ -284,7 +285,7 @@ xfce4-screenshooter
 #xfce4-sensors-plugin
 #xfce4-smartbookmark-plugin
 #xfce4-systemload-plugin
-#xfce4-taskmanager
+xfce4-taskmanager
 #xfce4-time-out-plugin
 #xfce4-timer-plugin
 #xfce4-verve-plugin
@@ -298,3 +299,4 @@ xfce4-screenshooter
 ###########################################################################
 #                                ISO SPECIFIC
 ###########################################################################
+polybar

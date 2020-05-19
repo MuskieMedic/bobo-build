@@ -39,7 +39,6 @@ mkinitcpio-openswap
 
 ###utilities-repo
 archiso
-#aurvote-git
 conky-lua-archers
 downgrade
 #font-manager-git
@@ -244,10 +243,10 @@ bobo-fusion-dconf
 #                                ARCOLINUX CALAMARES
 ###########################################################################
 
-arco-calamares
+#arco-calamares
 #arco-calamares-comp
 #arco-calamares-dev
-#arco-calamares-next
+arco-calamares-next
 ##arcolinux-system-installation-git
 bobo-system-installation
 #arcolinux-config-live-session-git
@@ -312,13 +311,12 @@ bobo-vifm-config
 bobo-juno-themes
 bobo-candy-icons
 bobo-bibata-cursors
-autotiling
+
 
 ##extra for hybrid
 
 unclutter
 menulibre
-polybar
 
 xfce4-pulseaudio-plugin
 xfce4-whiskermenu-plugin

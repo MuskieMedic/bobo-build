@@ -135,7 +135,7 @@ bobo-root
 #arcolinux-slim
 #arcolinux-slimlock-themes-git
 arcolinux-system-config-git
-#arcolinux-systemd-services-git
+arcolinux-systemd-services-git
 ##arcolinux-termite-themes-git
 bobo-termite-themes
 #arcolinux-tint2-git

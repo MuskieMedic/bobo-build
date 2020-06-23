@@ -21,7 +21,7 @@ gmrun
 imagemagick
 #inkscape
 #libreoffice-fresh
-lshw
+#lshw
 #meld
 #nitrogen
 numlockx
@@ -74,7 +74,7 @@ bash-completion
 cronie
 dconf-editor
 #dex
-dmidecode
+#dmidecode
 #evince
 expac
 file-roller
@@ -116,7 +116,7 @@ python2-dbus
 python2-xdg
 #qt4
 qt5ct
-qt5-styleplugins
+#qt5-styleplugins
 #qt5-tools
 qt5-webkit
 #powertop

@@ -24,7 +24,7 @@ ttf-ms-fonts
 #moka-icon-theme
 #numix-circle-arc-icons-git
 #numix-icon-theme-git
-numix-circle-icon-theme-git
+#numix-circle-icon-theme-git
 #paper-icon-theme
 sardi-icons
 surfn-icons-git
@@ -107,6 +107,7 @@ arcolinux-local-applications-git
 arcolinux-local-xfce4-git
 #arcolinux-logo-git
 arcolinux-logout-git
+arcolinux-logout-themes-git
 #arcolinux-lxqt-applications-add-git
 #arcolinux-lxqt-applications-hide-git
 arcolinux-mirrorlist-git
@@ -131,8 +132,8 @@ arcolinux-rofi-git
 arcolinux-rofi-themes-git
 ##arcolinux-root-git
 bobo-root
-arcolinux-slim
-arcolinux-slimlock-themes-git
+#arcolinux-slim
+#arcolinux-slimlock-themes-git
 arcolinux-system-config-git
 #arcolinux-systemd-services-git
 ##arcolinux-termite-themes-git
@@ -150,11 +151,9 @@ bobo-wallpaper1
 #arcolinux-wallpapers-lxqt-dual-git
 #arcolinux-xfce4-panel-profiles-git
 #arcolinux-xmobar-git
-arcolinux-zsh-git
-
-arcolinux-logout-themes-git
-
-
+##arcolinux-zsh-git
+bobo-zsh
+bobo-zsh-theme
 
 ###########################################################################
 #                           ARCOLINUX DESKTOP FOLDER
@@ -208,6 +207,7 @@ bobo-fusion-xfce-config
 #arcolinux-config-plasma-git
 #arcolinux-config-plasma-nemesis-git
 #arcolinux-config-qtile-git
+#arcolinux-config-ukui-git
 #arcolinux-config-xfce-git
 #arcolinux-config-xmonad-git
 #arcolinux-config-xtended-git
@@ -235,6 +235,7 @@ bobo-fusion-dconf
 #arcolinux-openbox-dconf-git
 #arcolinux-plasma-dconf-git
 #arcolinux-qtile-dconf-git
+#arcolinux-ukui-dconf-git
 #arcolinux-xfce-dconf-git
 #arcolinux-xmonad-dconf-git
 #arcolinux-xtended-dconf-git
@@ -243,10 +244,10 @@ bobo-fusion-dconf
 #                                ARCOLINUX CALAMARES
 ###########################################################################
 
-#arco-calamares
+arco-calamares
 #arco-calamares-comp
 #arco-calamares-dev
-arco-calamares-next
+#arco-calamares-next
 ##arcolinux-system-installation-git
 bobo-system-installation
 #arcolinux-config-live-session-git
@@ -273,6 +274,7 @@ bobo-fusion-calamares-config
 #arcob-calamares-config-openbox-git
 #arcob-calamares-config-plasma-git
 #arcob-calamares-config-qtile-git
+#arcob-calamares-config-ukui-git
 #arcob-calamares-config-xfce-git
 #arcob-calamares-config-xmonad-git
 #arcob-calamares-config-xtended-git
@@ -305,6 +307,7 @@ zathura-djvu
 alacritty
 jgmenu
 vifm
+hugo
 #########################bobo-config
 bobo-alacritty-config
 bobo-vifm-config

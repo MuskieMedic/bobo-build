@@ -50,6 +50,7 @@ newname7='ArcoLinuxBobo-'$desktop
 #hosts
 oldname8='ArcoLinuxBobo'
 newname8='ArcoLinuxBobo-'$desktop
+
 #lightdm.conf user-session
 oldname9='user-session=xfce'
 newname9='user-session='$xdesktop
@@ -64,7 +65,7 @@ tput setaf 2;echo "Phase 1 : clean up and download the latest ArcoLinux Bobo ISO
 echo "################################################################## "
 echo
 echo "Deleting the work folder if one exists"
-[ -d ../work ] &&  rm -rf ../work
+[ -d ../work ] && sudo rm -rf ../work
 echo "Deleting the build folder if one exists - takes some time"
 [ -d $buildFolder ] && sudo rm -rf $buildFolder
 echo "Git cloning files and folder to work folder"
@@ -77,11 +78,10 @@ echo
 echo "Removing the old packages.x86_64 file from work folder"
 rm ../work/archiso/packages.x86_64
 echo "Copying the new packages.x86_64 file"
-cp -f archiso/packages.x86_64 ../work/archiso/packages.x86_64
+cp -f ../archiso/packages.x86_64 ../work/archiso/packages.x86_64
 echo "Adding the packages.bobo file"
-cp -f archiso/packages.arcobobo ../work/archiso/packages.arcobobo
-cp -f archiso/packages.soft ../work/archiso/packages.soft
-#read -p "Press [Enter] key to start backup..."
+cp -f ../archiso/packages.arcobobo ../work/archiso/packages.arcobobo
+cp -f ../archiso/packages.soft ../work/archiso/packages.soft
 
 echo "Removing old files/folders from /etc/skel"
 rm -rf ../work/archiso/airootfs/etc/skel/.* 2> /dev/null
@@ -178,7 +178,6 @@ sudo chmod 750 ~/arcobobo-build/archiso/airootfs/etc/polkit-1/rules.d
 sudo chgrp polkitd ~/arcobobo-build/archiso/airootfs/etc/polkit-1/rules.d
 
 cd $buildFolder/archiso
-
 
 echo
 echo "################################################################## "

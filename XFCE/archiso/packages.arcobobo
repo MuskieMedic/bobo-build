@@ -24,7 +24,7 @@ ttf-ms-fonts
 #moka-icon-theme
 #numix-circle-arc-icons-git
 #numix-icon-theme-git
-#numix-circle-icon-theme-git
+numix-circle-icon-theme-git
 #paper-icon-theme
 sardi-icons
 surfn-icons-git
@@ -39,7 +39,6 @@ mkinitcpio-openswap
 
 ###utilities-repo
 archiso
-#aurvote-git
 conky-lua-archers
 downgrade
 #font-manager-git
@@ -54,9 +53,9 @@ pamac-aur
 #peek
 #pulseaudio-equalizer-ladspa
 python-pyparted
-#python-pywal
+python-pywal
 #screenkey-git
-#sublime-text-dev
+sublime-text-dev
 #the_platinum_searcher-bin
 tmux
 trizen
@@ -107,11 +106,13 @@ arcolinux-local-applications-git
 #arcolinux-local-applications-plasma-hide-git
 arcolinux-local-xfce4-git
 #arcolinux-logo-git
+arcolinux-logout-git
 #arcolinux-lxqt-applications-add-git
 #arcolinux-lxqt-applications-hide-git
 arcolinux-mirrorlist-git
 arcolinux-neofetch-git
-#arcolinux-nitrogen-git
+##arcolinux-nitrogen-git
+bobo-nitrogen
 #arcolinux-oblogout
 #arcolinux-oblogout-themes-git
 #arcolinux-obmenu-generator-git
@@ -123,14 +124,14 @@ arcolinux-pipemenus-git
 #arcolinux-plank-themes-git
 #arcolinux-plasma-kservices-git
 #arcolinux-polybar-git
-##arcolinux-qt5-git
+#arcolinux-qt5-git
 #arcolinux-qt5-plasma-git
-#arcolinux-rofi-git
-#arcolinux-rofi-themes-git
+arcolinux-rofi-git
+arcolinux-rofi-themes-git
 ##arcolinux-root-git
 bobo-root
-arcolinux-slim
-arcolinux-slimlock-themes-git
+#arcolinux-slim
+#arcolinux-slimlock-themes-git
 arcolinux-system-config-git
 #arcolinux-systemd-services-git
 #arcolinux-termite-themes-git
@@ -140,13 +141,17 @@ bobo-termite-themes
 arcolinux-tweak-tool-git
 #arcolinux-variety-git
 bobo-variety
-#arcolinux-wallpapers-git
-bobo-wallpapers
+##arcolinux-wallpapers-git
+bobo-wallpaper1
+#bobo-wallpaper2
+#bobo-wallpaper3
+#bobo-wallpaper4
 #arcolinux-wallpapers-lxqt-dual-git
 #arcolinux-xfce4-panel-profiles-git
 bobo-xfce4-panel-profiles
 #arcolinux-xmobar-git
 arcolinux-zsh-git
+arcolinux-logout-themes-git
 
 ###########################################################################
 #                           ARCOLINUX DESKTOP FOLDER
@@ -279,9 +284,25 @@ bobo-xfce-calamares-config
 #                                ISO SPECIFIC
 ###########################################################################
 
+#ranger
+python-ueberzug
+#bobo-ranger-config
+sndio
+moc-pulse
+bobo-mocp-config
+arcolinux-betterlockscreen-git
+bobo-betterlockscreen-settings
+bobo-betterlockscreen-cache
+zathura
+zathura-pdf-poppler
+zathura-cb
+zathura-djvu
+alacritty
+vifm
+hugo
+#########################bobo-config
+bobo-alacritty-config
+bobo-vifm-config
+bobo-juno-themes
 bobo-candy-icons
 bobo-bibata-cursors
-bobo-juno-themes
-ranger
-python-ueberzug
-bobo-ranger-config

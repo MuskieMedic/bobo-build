@@ -116,7 +116,7 @@ python2-dbus
 python2-xdg
 #qt4
 qt5ct
-qt5-styleplugins
+#qt5-styleplugins
 #qt5-tools
 qt5-webkit
 #powertop
@@ -171,6 +171,7 @@ qt5-xmlpatterns
 adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adobe-source-han-sans-cn-fonts
+
 
 ###########################################################################
 #                                DISPLAY MANAGER
@@ -300,3 +301,4 @@ xfce4-taskmanager
 #                                ISO SPECIFIC
 ###########################################################################
 polybar
+autorandr

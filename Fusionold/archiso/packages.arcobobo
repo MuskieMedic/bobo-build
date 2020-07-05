@@ -85,7 +85,7 @@ arcolinux-bin-git
 #arcolinux-common-git
 arcolinux-conky-collection-git
 #arcolinux-conky-collection-plasma-git
-#arcolinux-cron-git
+arcolinux-cron-git
 #arcolinux-docs-git
 #arcolinux-faces-git
 arcolinux-fonts-git
@@ -135,8 +135,7 @@ bobo-root
 #arcolinux-slim
 #arcolinux-slimlock-themes-git
 arcolinux-system-config-git
-#arcolinuxd-system-config-git
-#arcolinux-systemd-services-git
+arcolinux-systemd-services-git
 ##arcolinux-termite-themes-git
 bobo-termite-themes
 #arcolinux-tint2-git
@@ -180,8 +179,6 @@ bobo-fusion-i3-config
 #arcolinux-plasma-git
 #arcolinux-plasma-nemesis-git
 #arcolinux-qtile-git
-#arcolinux-spectrwm-git
-#arcolinux-ukui-git
 ##arcolinux-xfce-git
 bobo-fusion-xfce-config
 #arcolinux-xmonad-polybar-git
@@ -210,7 +207,6 @@ bobo-fusion-xfce-config
 #arcolinux-config-plasma-git
 #arcolinux-config-plasma-nemesis-git
 #arcolinux-config-qtile-git
-#arcolinux-config-spectrwm-git
 #arcolinux-config-ukui-git
 #arcolinux-config-xfce-git
 #arcolinux-config-xmonad-git
@@ -239,7 +235,6 @@ bobo-fusion-dconf
 #arcolinux-openbox-dconf-git
 #arcolinux-plasma-dconf-git
 #arcolinux-qtile-dconf-git
-#arcolinux-spectrwm-dconf-git
 #arcolinux-ukui-dconf-git
 #arcolinux-xfce-dconf-git
 #arcolinux-xmonad-dconf-git
@@ -279,7 +274,6 @@ bobo-fusion-calamares-config
 #arcob-calamares-config-openbox-git
 #arcob-calamares-config-plasma-git
 #arcob-calamares-config-qtile-git
-#arcob-calamares-config-spectrwm-git
 #arcob-calamares-config-ukui-git
 #arcob-calamares-config-xfce-git
 #arcob-calamares-config-xmonad-git

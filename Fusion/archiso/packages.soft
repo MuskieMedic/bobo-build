@@ -63,7 +63,7 @@ ttf-ubuntu-font-family
 #adapta-gtk-theme
 arc-gtk-theme
 kvantum-qt5
-kvantum-theme-arc
+#kvantum-theme-arc
 
 ###utilities
 arandr
